@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_66c17a61367c5fa24ae089e4cb714422 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_66c17a61367c5fa24ae089e4cb714422" ></div>
+        
+</body>
+<script>    
+    
+            var map_66c17a61367c5fa24ae089e4cb714422 = L.map(
+                "map_66c17a61367c5fa24ae089e4cb714422",
+                {
+                    center: [50.7753, 6.0839],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5d9bc6d30cfd813561fd21b0e6a197cd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var marker_eea41feaa0983636865ab439187fb855 = L.marker(
+                [50.78228, 6.07797],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_684167109c27884ef404cf58f80844bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_eea41feaa0983636865ab439187fb855.setIcon(icon_684167109c27884ef404cf58f80844bb);
+        
+    
+        var popup_8ac5462e6d31818ce104658e4a566f69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4b168449abc1934fcc727afcaf75e80 = $(`<div id="html_c4b168449abc1934fcc727afcaf75e80" style="width: 100.0%; height: 100.0%;">zzz_Aachen_TestingStation_Rev.02 transactions = 0</div>`)[0];
+            popup_8ac5462e6d31818ce104658e4a566f69.setContent(html_c4b168449abc1934fcc727afcaf75e80);
+        
+
+        marker_eea41feaa0983636865ab439187fb855.bindPopup(popup_8ac5462e6d31818ce104658e4a566f69)
+        ;
+
+        
+    
+    
+            var marker_2212be7b603f738848c6b71aa9f3833e = L.marker(
+                [50.91158718, 8.101937293],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_60d3be2651c8208b0c77a4a00eb15fcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2212be7b603f738848c6b71aa9f3833e.setIcon(icon_60d3be2651c8208b0c77a4a00eb15fcb);
+        
+    
+        var popup_c7e900a07fe7bab942873e4232cb7272 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_353cc0cf2ecb972bd16ec4386f2fc954 = $(`<div id="html_353cc0cf2ecb972bd16ec4386f2fc954" style="width: 100.0%; height: 100.0%;">Volksbank Niedernetphen transactions = 2</div>`)[0];
+            popup_c7e900a07fe7bab942873e4232cb7272.setContent(html_353cc0cf2ecb972bd16ec4386f2fc954);
+        
+
+        marker_2212be7b603f738848c6b71aa9f3833e.bindPopup(popup_c7e900a07fe7bab942873e4232cb7272)
+        ;
+
+        
+    
+    
+            var marker_bd3825ef6d4ecb360c4de118c3a5577b = L.marker(
+                [50.77338, 6.0897],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_5677424b6b91c02b0f784c746ca29331 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_bd3825ef6d4ecb360c4de118c3a5577b.setIcon(icon_5677424b6b91c02b0f784c746ca29331);
+        
+    
+        var popup_0921d1d70d51a625a52651f3e7d83f4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac8a27db1ade6523c87c836c77068e45 = $(`<div id="html_ac8a27db1ade6523c87c836c77068e45" style="width: 100.0%; height: 100.0%;">Grenzlandtheater transactions = 3</div>`)[0];
+            popup_0921d1d70d51a625a52651f3e7d83f4a.setContent(html_ac8a27db1ade6523c87c836c77068e45);
+        
+
+        marker_bd3825ef6d4ecb360c4de118c3a5577b.bindPopup(popup_0921d1d70d51a625a52651f3e7d83f4a)
+        ;
+
+        
+    
+    
+            var marker_8f35a74f6ef5173b181f47158e5c6427 = L.marker(
+                [50.711805, 6.139857],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_858899cd1f23b31829c5bc05c180a0de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8f35a74f6ef5173b181f47158e5c6427.setIcon(icon_858899cd1f23b31829c5bc05c180a0de);
+        
+    
+        var popup_3d3e3b8a3a33323065eca0baca2eff97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cc9f1ba16158ae61d69651bec5e3cb7 = $(`<div id="html_4cc9f1ba16158ae61d69651bec5e3cb7" style="width: 100.0%; height: 100.0%;">KISTERS AG - Pascalstraße transactions = 13</div>`)[0];
+            popup_3d3e3b8a3a33323065eca0baca2eff97.setContent(html_4cc9f1ba16158ae61d69651bec5e3cb7);
+        
+
+        marker_8f35a74f6ef5173b181f47158e5c6427.bindPopup(popup_3d3e3b8a3a33323065eca0baca2eff97)
+        ;
+
+        
+    
+    
+            var marker_2a8a00a9ff43df9da759ad58a26efa52 = L.marker(
+                [50.745949, 6.087653],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_707f1d7711c592940fdb0799f4010229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2a8a00a9ff43df9da759ad58a26efa52.setIcon(icon_707f1d7711c592940fdb0799f4010229);
+        
+    
+        var popup_7f5fdc3374b1f6deded73d0b53475fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df710c4c0d8cc4074e1a2e190579c7fe = $(`<div id="html_df710c4c0d8cc4074e1a2e190579c7fe" style="width: 100.0%; height: 100.0%;">Diepenbenden transactions = 16</div>`)[0];
+            popup_7f5fdc3374b1f6deded73d0b53475fa6.setContent(html_df710c4c0d8cc4074e1a2e190579c7fe);
+        
+
+        marker_2a8a00a9ff43df9da759ad58a26efa52.bindPopup(popup_7f5fdc3374b1f6deded73d0b53475fa6)
+        ;
+
+        
+    
+    
+            var marker_156fb5e617146c2de314df3fe1e28e2e = L.marker(
+                [50.771093799435, 6.1202909849981],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_1e68ff09139a59c3bc7b636be1b76e39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_156fb5e617146c2de314df3fe1e28e2e.setIcon(icon_1e68ff09139a59c3bc7b636be1b76e39);
+        
+    
+        var popup_94b07543b0d1d2d43c0626ca6a3bb666 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fee4836d349dccab2bbced0d3485a87 = $(`<div id="html_7fee4836d349dccab2bbced0d3485a87" style="width: 100.0%; height: 100.0%;">Guter Freund transactions = 17</div>`)[0];
+            popup_94b07543b0d1d2d43c0626ca6a3bb666.setContent(html_7fee4836d349dccab2bbced0d3485a87);
+        
+
+        marker_156fb5e617146c2de314df3fe1e28e2e.bindPopup(popup_94b07543b0d1d2d43c0626ca6a3bb666)
+        ;
+
+        
+    
+    
+            var marker_6556c45ac9ca04200c69cc2bd711d646 = L.marker(
+                [50.7149959, 6.1405929],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_f04058bac6cee2aab08fca1cba560113 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6556c45ac9ca04200c69cc2bd711d646.setIcon(icon_f04058bac6cee2aab08fca1cba560113);
+        
+    
+        var popup_6593193ca31d3e4c8be72e53066b2129 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c40d1b507ec56ce565be808731036c45 = $(`<div id="html_c40d1b507ec56ce565be808731036c45" style="width: 100.0%; height: 100.0%;">Bauer + Kirch Pascalstraße transactions = 17</div>`)[0];
+            popup_6593193ca31d3e4c8be72e53066b2129.setContent(html_c40d1b507ec56ce565be808731036c45);
+        
+
+        marker_6556c45ac9ca04200c69cc2bd711d646.bindPopup(popup_6593193ca31d3e4c8be72e53066b2129)
+        ;
+
+        
+    
+    
+            var marker_a6de0c04b08b48e43e9f94a02fd53efa = L.marker(
+                [50.807869, 6.051041],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_4c18e3124cdaf0e101068ed4490a39cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_a6de0c04b08b48e43e9f94a02fd53efa.setIcon(icon_4c18e3124cdaf0e101068ed4490a39cf);
+        
+    
+        var popup_e9fc5c8d52d85812ae0dc768a464bef2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29282f9c5fbf83cb72a8628b17a5a5a7 = $(`<div id="html_29282f9c5fbf83cb72a8628b17a5a5a7" style="width: 100.0%; height: 100.0%;">PEM transactions = 17</div>`)[0];
+            popup_e9fc5c8d52d85812ae0dc768a464bef2.setContent(html_29282f9c5fbf83cb72a8628b17a5a5a7);
+        
+
+        marker_a6de0c04b08b48e43e9f94a02fd53efa.bindPopup(popup_e9fc5c8d52d85812ae0dc768a464bef2)
+        ;
+
+        
+    
+    
+            var marker_90be2d0e40bba1f97b2388800b167354 = L.marker(
+                [50.728777, 6.177942],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d61911a7d7016c67c4b112200eccdb60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_90be2d0e40bba1f97b2388800b167354.setIcon(icon_d61911a7d7016c67c4b112200eccdb60);
+        
+    
+        var popup_7e4482565913ee330f1433bca5da3522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28ae449f6e22c0a248af0f96247f6197 = $(`<div id="html_28ae449f6e22c0a248af0f96247f6197" style="width: 100.0%; height: 100.0%;">Kunsthaus NRW Kornelimünster transactions = 19</div>`)[0];
+            popup_7e4482565913ee330f1433bca5da3522.setContent(html_28ae449f6e22c0a248af0f96247f6197);
+        
+
+        marker_90be2d0e40bba1f97b2388800b167354.bindPopup(popup_7e4482565913ee330f1433bca5da3522)
+        ;
+
+        
+    
+    
+            var marker_e3ac4fb542f25468c330d74c7a92bda3 = L.marker(
+                [50.750314, 6.170144],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_7dc3f3081970a5c968a8793d29e6eff5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e3ac4fb542f25468c330d74c7a92bda3.setIcon(icon_7dc3f3081970a5c968a8793d29e6eff5);
+        
+    
+        var popup_ebd7a9f805118ef8c36cb37e14767dc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6ee11013e4dd47532c01dfe3cf6ddee = $(`<div id="html_c6ee11013e4dd47532c01dfe3cf6ddee" style="width: 100.0%; height: 100.0%;">REWE Esser transactions = 19</div>`)[0];
+            popup_ebd7a9f805118ef8c36cb37e14767dc4.setContent(html_c6ee11013e4dd47532c01dfe3cf6ddee);
+        
+
+        marker_e3ac4fb542f25468c330d74c7a92bda3.bindPopup(popup_ebd7a9f805118ef8c36cb37e14767dc4)
+        ;
+
+        
+    
+    
+            var marker_b34b5843f7a5091d799462381db72733 = L.marker(
+                [50.829049, 6.024215],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_f1379fda2b8889864cafe3b76d20a870 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b34b5843f7a5091d799462381db72733.setIcon(icon_f1379fda2b8889864cafe3b76d20a870);
+        
+    
+        var popup_f502fc52ea51b5d123625f2558a5fd28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96e24981400f0d5135fe6e2f94a86b31 = $(`<div id="html_96e24981400f0d5135fe6e2f94a86b31" style="width: 100.0%; height: 100.0%;">Avantis / PEM RWTH transactions = 20</div>`)[0];
+            popup_f502fc52ea51b5d123625f2558a5fd28.setContent(html_96e24981400f0d5135fe6e2f94a86b31);
+        
+
+        marker_b34b5843f7a5091d799462381db72733.bindPopup(popup_f502fc52ea51b5d123625f2558a5fd28)
+        ;
+
+        
+    
+    
+            var marker_794ae5c2ee655be363d2433e6d4e9d34 = L.marker(
+                [50.763938, 6.150466],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_9a942337a9e82a0289ea3bdb112ff7be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_794ae5c2ee655be363d2433e6d4e9d34.setIcon(icon_9a942337a9e82a0289ea3bdb112ff7be);
+        
+    
+        var popup_c42094b67b32aa22070b960e204c94d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92c0151b720598cb0ade5a5465bab0cf = $(`<div id="html_92c0151b720598cb0ade5a5465bab0cf" style="width: 100.0%; height: 100.0%;">Grünenthal transactions = 21</div>`)[0];
+            popup_c42094b67b32aa22070b960e204c94d5.setContent(html_92c0151b720598cb0ade5a5465bab0cf);
+        
+
+        marker_794ae5c2ee655be363d2433e6d4e9d34.bindPopup(popup_c42094b67b32aa22070b960e204c94d5)
+        ;
+
+        
+    
+    
+            var marker_8dc0e2ed11f2da3bf00c31518ad1599e = L.marker(
+                [50.758255, 6.07899],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_84c07fcb630ddbba50b8656222edf40c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8dc0e2ed11f2da3bf00c31518ad1599e.setIcon(icon_84c07fcb630ddbba50b8656222edf40c);
+        
+    
+        var popup_63f3df0fcc59d0fe2eda7ee3c00bc2a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab9c1cf5173deb36e87d5763c7ccd64b = $(`<div id="html_ab9c1cf5173deb36e87d5763c7ccd64b" style="width: 100.0%; height: 100.0%;">Generali - Maria-Theresia-Allee transactions = 23</div>`)[0];
+            popup_63f3df0fcc59d0fe2eda7ee3c00bc2a8.setContent(html_ab9c1cf5173deb36e87d5763c7ccd64b);
+        
+
+        marker_8dc0e2ed11f2da3bf00c31518ad1599e.bindPopup(popup_63f3df0fcc59d0fe2eda7ee3c00bc2a8)
+        ;
+
+        
+    
+    
+            var marker_d4e0838e4ff41978b33f9f5d41d66389 = L.marker(
+                [50.781243, 6.127579],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_3be18551275b7f0a2bc392318df7380f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_d4e0838e4ff41978b33f9f5d41d66389.setIcon(icon_3be18551275b7f0a2bc392318df7380f);
+        
+    
+        var popup_379e1dd7367ce08cce45b115dcf2102a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6d725e36a424710b69261f3e4238581 = $(`<div id="html_c6d725e36a424710b69261f3e4238581" style="width: 100.0%; height: 100.0%;">Rotter Bruch transactions = 24</div>`)[0];
+            popup_379e1dd7367ce08cce45b115dcf2102a.setContent(html_c6d725e36a424710b69261f3e4238581);
+        
+
+        marker_d4e0838e4ff41978b33f9f5d41d66389.bindPopup(popup_379e1dd7367ce08cce45b115dcf2102a)
+        ;
+
+        
+    
+    
+            var marker_f604c684e603ce629e186afac7d7417e = L.marker(
+                [50.772083, 6.121943],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_f0ce37f140a90632593f26024cdf9ddb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f604c684e603ce629e186afac7d7417e.setIcon(icon_f0ce37f140a90632593f26024cdf9ddb);
+        
+    
+        var popup_2b567c28dd441cfe6dde04fc20c275cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_170883d6b074d231fcb471cc76804210 = $(`<div id="html_170883d6b074d231fcb471cc76804210" style="width: 100.0%; height: 100.0%;">Werkquartier II transactions = 24</div>`)[0];
+            popup_2b567c28dd441cfe6dde04fc20c275cb.setContent(html_170883d6b074d231fcb471cc76804210);
+        
+
+        marker_f604c684e603ce629e186afac7d7417e.bindPopup(popup_2b567c28dd441cfe6dde04fc20c275cb)
+        ;
+
+        
+    
+    
+            var marker_49dae7824b01019529e283f3f7a9ef43 = L.marker(
+                [50.768496, 6.092693],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_ea8fa40c30d16e9342f2729b0d615d33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_49dae7824b01019529e283f3f7a9ef43.setIcon(icon_ea8fa40c30d16e9342f2729b0d615d33);
+        
+    
+        var popup_5f36c50b9b9358479c57f7444463bb43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01c9cf93c5dabd74dcdb2ce9563ec207 = $(`<div id="html_01c9cf93c5dabd74dcdb2ce9563ec207" style="width: 100.0%; height: 100.0%;">Hackländerstraße transactions = 25</div>`)[0];
+            popup_5f36c50b9b9358479c57f7444463bb43.setContent(html_01c9cf93c5dabd74dcdb2ce9563ec207);
+        
+
+        marker_49dae7824b01019529e283f3f7a9ef43.bindPopup(popup_5f36c50b9b9358479c57f7444463bb43)
+        ;
+
+        
+    
+    
+            var marker_f28b3637c590a13144b6697c12ab9e08 = L.marker(
+                [50.771736, 6.121345],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_12252d0b9a68adbe1b4693c31b955e51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f28b3637c590a13144b6697c12ab9e08.setIcon(icon_12252d0b9a68adbe1b4693c31b955e51);
+        
+    
+        var popup_b2241f4262b5d23fd30c84573ea0687f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b81cd3de6a21f229c7c627da4216f90d = $(`<div id="html_b81cd3de6a21f229c7c627da4216f90d" style="width: 100.0%; height: 100.0%;">Werkquartier I transactions = 25</div>`)[0];
+            popup_b2241f4262b5d23fd30c84573ea0687f.setContent(html_b81cd3de6a21f229c7c627da4216f90d);
+        
+
+        marker_f28b3637c590a13144b6697c12ab9e08.bindPopup(popup_b2241f4262b5d23fd30c84573ea0687f)
+        ;
+
+        
+    
+    
+            var marker_fcb2f7529a0ce8cb2e704c0312ccb581 = L.marker(
+                [50.763483, 6.052873],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_513ae257bf37957992aa00d4e58be539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_fcb2f7529a0ce8cb2e704c0312ccb581.setIcon(icon_513ae257bf37957992aa00d4e58be539);
+        
+    
+        var popup_1a2be5a056d9a0e575be6faa4c2f8662 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_994392de2f4cebc5506d008a4349102e = $(`<div id="html_994392de2f4cebc5506d008a4349102e" style="width: 100.0%; height: 100.0%;">Forst Römer & Partner transactions = 28</div>`)[0];
+            popup_1a2be5a056d9a0e575be6faa4c2f8662.setContent(html_994392de2f4cebc5506d008a4349102e);
+        
+
+        marker_fcb2f7529a0ce8cb2e704c0312ccb581.bindPopup(popup_1a2be5a056d9a0e575be6faa4c2f8662)
+        ;
+
+        
+    
+    
+            var marker_73bc40a27a104d0066290c979fcbea61 = L.marker(
+                [50.741289, 6.157867],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_a4532dcb1543df83e6bd016070a7a9eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_73bc40a27a104d0066290c979fcbea61.setIcon(icon_a4532dcb1543df83e6bd016070a7a9eb);
+        
+    
+        var popup_bd533618d1a2712aa36e1e43278e257c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6a810c71bdc73ab7a8520ac64842cc9 = $(`<div id="html_b6a810c71bdc73ab7a8520ac64842cc9" style="width: 100.0%; height: 100.0%;">Tuchmacherviertel transactions = 31</div>`)[0];
+            popup_bd533618d1a2712aa36e1e43278e257c.setContent(html_b6a810c71bdc73ab7a8520ac64842cc9);
+        
+
+        marker_73bc40a27a104d0066290c979fcbea61.bindPopup(popup_bd533618d1a2712aa36e1e43278e257c)
+        ;
+
+        
+    
+    
+            var marker_cba9351d82b92e11c7e7a8daad64c0bb = L.marker(
+                [50.748699, 6.163385],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_58739b591a41e821a39ef6d279bc800e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_cba9351d82b92e11c7e7a8daad64c0bb.setIcon(icon_58739b591a41e821a39ef6d279bc800e);
+        
+    
+        var popup_58e89fdb027be1c379dbac8c73fdf322 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58cdb69d44d376ba153c9fe581ad2e16 = $(`<div id="html_58cdb69d44d376ba153c9fe581ad2e16" style="width: 100.0%; height: 100.0%;">Brander Markt transactions = 34</div>`)[0];
+            popup_58e89fdb027be1c379dbac8c73fdf322.setContent(html_58cdb69d44d376ba153c9fe581ad2e16);
+        
+
+        marker_cba9351d82b92e11c7e7a8daad64c0bb.bindPopup(popup_58e89fdb027be1c379dbac8c73fdf322)
+        ;
+
+        
+    
+    
+            var marker_f41e9d8be1505bd411028fa17c74f395 = L.marker(
+                [50.780305, 6.124932],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_e9f693dda083f9fde15321e8250c5aa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f41e9d8be1505bd411028fa17c74f395.setIcon(icon_e9f693dda083f9fde15321e8250c5aa8);
+        
+    
+        var popup_898e8fa75cfa31b733efe77facf757c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82d7f007edeb75db26ae8555f9a3170c = $(`<div id="html_82d7f007edeb75db26ae8555f9a3170c" style="width: 100.0%; height: 100.0%;">Medienhaus Aachen transactions = 35</div>`)[0];
+            popup_898e8fa75cfa31b733efe77facf757c1.setContent(html_82d7f007edeb75db26ae8555f9a3170c);
+        
+
+        marker_f41e9d8be1505bd411028fa17c74f395.bindPopup(popup_898e8fa75cfa31b733efe77facf757c1)
+        ;
+
+        
+    
+    
+            var marker_1a6a1cdcf725de316326f96677eae5af = L.marker(
+                [50.7806, 6.0924],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_771140db508f837cd97f85f18820766a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_1a6a1cdcf725de316326f96677eae5af.setIcon(icon_771140db508f837cd97f85f18820766a);
+        
+    
+        var popup_be2deeae738671c60a9998dcee521fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_652ca148e1af1c3afc620a36f81f8eb9 = $(`<div id="html_652ca148e1af1c3afc620a36f81f8eb9" style="width: 100.0%; height: 100.0%;">Sparkasse - Eurogress transactions = 36</div>`)[0];
+            popup_be2deeae738671c60a9998dcee521fe1.setContent(html_652ca148e1af1c3afc620a36f81f8eb9);
+        
+
+        marker_1a6a1cdcf725de316326f96677eae5af.bindPopup(popup_be2deeae738671c60a9998dcee521fe1)
+        ;
+
+        
+    
+    
+            var marker_9c23f53a2043c8c6a1f32a8213e9c3a5 = L.marker(
+                [50.794332, 6.110464],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_7740d941c71b8cb1a0c44a42988cc399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_9c23f53a2043c8c6a1f32a8213e9c3a5.setIcon(icon_7740d941c71b8cb1a0c44a42988cc399);
+        
+    
+        var popup_6913386ba222c76763b3b504ad6f0698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73dc2121879925c276370a731ce15e78 = $(`<div id="html_73dc2121879925c276370a731ce15e78" style="width: 100.0%; height: 100.0%;">NetAachen GmbH transactions = 37</div>`)[0];
+            popup_6913386ba222c76763b3b504ad6f0698.setContent(html_73dc2121879925c276370a731ce15e78);
+        
+
+        marker_9c23f53a2043c8c6a1f32a8213e9c3a5.bindPopup(popup_6913386ba222c76763b3b504ad6f0698)
+        ;
+
+        
+    
+    
+            var marker_88ffe5f893459036cf042b40e64c68c0 = L.marker(
+                [50.768538, 6.130985],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_bc89bf79265ca99aae1dd3d8324719e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_88ffe5f893459036cf042b40e64c68c0.setIcon(icon_bc89bf79265ca99aae1dd3d8324719e5);
+        
+    
+        var popup_2aeffde3f79b348ca4700cefde690014 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_724ea792dc8e8315683f300be5647ae3 = $(`<div id="html_724ea792dc8e8315683f300be5647ae3" style="width: 100.0%; height: 100.0%;">Stadtbetrieb Aachen transactions = 37</div>`)[0];
+            popup_2aeffde3f79b348ca4700cefde690014.setContent(html_724ea792dc8e8315683f300be5647ae3);
+        
+
+        marker_88ffe5f893459036cf042b40e64c68c0.bindPopup(popup_2aeffde3f79b348ca4700cefde690014)
+        ;
+
+        
+    
+    
+            var marker_4c1b8ca2cbd48732b2b56579181bec25 = L.marker(
+                [50.740162, 6.047564],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_ccd95f6a574c56ec88b09a5c22668324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_4c1b8ca2cbd48732b2b56579181bec25.setIcon(icon_ccd95f6a574c56ec88b09a5c22668324);
+        
+    
+        var popup_f40f1c1b8b234a36afae4ad5e7568c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20de3cd8e41d0a000d3eab834d7c8f20 = $(`<div id="html_20de3cd8e41d0a000d3eab834d7c8f20" style="width: 100.0%; height: 100.0%;">Preuswald transactions = 39</div>`)[0];
+            popup_f40f1c1b8b234a36afae4ad5e7568c0c.setContent(html_20de3cd8e41d0a000d3eab834d7c8f20);
+        
+
+        marker_4c1b8ca2cbd48732b2b56579181bec25.bindPopup(popup_f40f1c1b8b234a36afae4ad5e7568c0c)
+        ;
+
+        
+    
+    
+            var marker_98f0a8f5dbf04997e5de5ef85b33b8bf = L.marker(
+                [50.766224901437, 6.0934371042968],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_1908611ea79c8b3718ca58f8330a39b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_98f0a8f5dbf04997e5de5ef85b33b8bf.setIcon(icon_1908611ea79c8b3718ca58f8330a39b6);
+        
+    
+        var popup_e53eb8be3f97d432d99ceea0b9c211cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a84028797757eeed86ef596c36ccbd1a = $(`<div id="html_a84028797757eeed86ef596c36ccbd1a" style="width: 100.0%; height: 100.0%;">ISEA RWTH transactions = 39</div>`)[0];
+            popup_e53eb8be3f97d432d99ceea0b9c211cf.setContent(html_a84028797757eeed86ef596c36ccbd1a);
+        
+
+        marker_98f0a8f5dbf04997e5de5ef85b33b8bf.bindPopup(popup_e53eb8be3f97d432d99ceea0b9c211cf)
+        ;
+
+        
+    
+    
+            var marker_347ece981519575003a6bf23cbf09828 = L.marker(
+                [50.794714, 6.057711],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_9811dcbe0e029d8b68bf6d6f26ebc608 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_347ece981519575003a6bf23cbf09828.setIcon(icon_9811dcbe0e029d8b68bf6d6f26ebc608);
+        
+    
+        var popup_2dbad7e583279b5b9388e0db6793e474 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6b32eaddb7893d67ed24cec5992f719 = $(`<div id="html_d6b32eaddb7893d67ed24cec5992f719" style="width: 100.0%; height: 100.0%;">Schurzelter Straße transactions = 40</div>`)[0];
+            popup_2dbad7e583279b5b9388e0db6793e474.setContent(html_d6b32eaddb7893d67ed24cec5992f719);
+        
+
+        marker_347ece981519575003a6bf23cbf09828.bindPopup(popup_2dbad7e583279b5b9388e0db6793e474)
+        ;
+
+        
+    
+    
+            var marker_d2b842a847f121d32ce341a6f53acdf9 = L.marker(
+                [50.796282, 6.124627],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_5cadba1ed35f10356c0c128ec3d073c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_d2b842a847f121d32ce341a6f53acdf9.setIcon(icon_5cadba1ed35f10356c0c128ec3d073c9);
+        
+    
+        var popup_afd042179bf4c9b6bdf744e4158e5922 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cac09146638fbbbe7ffa1eecf8982b81 = $(`<div id="html_cac09146638fbbbe7ffa1eecf8982b81" style="width: 100.0%; height: 100.0%;">Bezirksamt Haaren transactions = 40</div>`)[0];
+            popup_afd042179bf4c9b6bdf744e4158e5922.setContent(html_cac09146638fbbbe7ffa1eecf8982b81);
+        
+
+        marker_d2b842a847f121d32ce341a6f53acdf9.bindPopup(popup_afd042179bf4c9b6bdf744e4158e5922)
+        ;
+
+        
+    
+    
+            var marker_bb236268af3f3ea7e9bffe482ee6f679 = L.marker(
+                [50.761292, 6.102155],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_620d4ca4753eae7e6ae0b8378d21088c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_bb236268af3f3ea7e9bffe482ee6f679.setIcon(icon_620d4ca4753eae7e6ae0b8378d21088c);
+        
+    
+        var popup_d162622c2b0f5a32602f49b01fef2423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3591927ac6ba84897ef394e6a9d27201 = $(`<div id="html_3591927ac6ba84897ef394e6a9d27201" style="width: 100.0%; height: 100.0%;">Stellplatz Bad Aachen transactions = 41</div>`)[0];
+            popup_d162622c2b0f5a32602f49b01fef2423.setContent(html_3591927ac6ba84897ef394e6a9d27201);
+        
+
+        marker_bb236268af3f3ea7e9bffe482ee6f679.bindPopup(popup_d162622c2b0f5a32602f49b01fef2423)
+        ;
+
+        
+    
+    
+            var marker_3415ef5f3445d3b0d573de536d632f19 = L.marker(
+                [50.768445, 6.08797],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_e38d3df38600cf30bd5939955a8f444a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_3415ef5f3445d3b0d573de536d632f19.setIcon(icon_e38d3df38600cf30bd5939955a8f444a);
+        
+    
+        var popup_f9fa7d1226ef31528587ffcec0f58d7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bd5bf1e0c2eeb2821c0c4d6a04e4c3e = $(`<div id="html_5bd5bf1e0c2eeb2821c0c4d6a04e4c3e" style="width: 100.0%; height: 100.0%;">Stadtverwaltung - Am Marschiertor transactions = 41</div>`)[0];
+            popup_f9fa7d1226ef31528587ffcec0f58d7d.setContent(html_5bd5bf1e0c2eeb2821c0c4d6a04e4c3e);
+        
+
+        marker_3415ef5f3445d3b0d573de536d632f19.bindPopup(popup_f9fa7d1226ef31528587ffcec0f58d7d)
+        ;
+
+        
+    
+    
+            var marker_a2609229a6c2ddd3ae98d1f0e2d8d24e = L.marker(
+                [50.78015515247, 6.0612878990399],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d25eb3b5bbf1b20257f90a46115382c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_a2609229a6c2ddd3ae98d1f0e2d8d24e.setIcon(icon_d25eb3b5bbf1b20257f90a46115382c6);
+        
+    
+        var popup_9eed1530ef3a119e8043763f057adaf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c0c7dec42e2b4e1674c5a829f981d08 = $(`<div id="html_3c0c7dec42e2b4e1674c5a829f981d08" style="width: 100.0%; height: 100.0%;">Ahornstraße transactions = 42</div>`)[0];
+            popup_9eed1530ef3a119e8043763f057adaf3.setContent(html_3c0c7dec42e2b4e1674c5a829f981d08);
+        
+
+        marker_a2609229a6c2ddd3ae98d1f0e2d8d24e.bindPopup(popup_9eed1530ef3a119e8043763f057adaf3)
+        ;
+
+        
+    
+    
+            var marker_518c7819a9290f4e7e448c7e3e2d8a9f = L.marker(
+                [50.754989070046, 6.0959219125735],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_725fb14079d9bcbb845759da5885db37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_518c7819a9290f4e7e448c7e3e2d8a9f.setIcon(icon_725fb14079d9bcbb845759da5885db37);
+        
+    
+        var popup_6f7f5364e714bc3819d1cdd381105e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe4fe148d9f37f598ba03aede3fa82c = $(`<div id="html_bfe4fe148d9f37f598ba03aede3fa82c" style="width: 100.0%; height: 100.0%;">FH - Bayernallee transactions = 43</div>`)[0];
+            popup_6f7f5364e714bc3819d1cdd381105e84.setContent(html_bfe4fe148d9f37f598ba03aede3fa82c);
+        
+
+        marker_518c7819a9290f4e7e448c7e3e2d8a9f.bindPopup(popup_6f7f5364e714bc3819d1cdd381105e84)
+        ;
+
+        
+    
+    
+            var marker_44a074015624eeca4daca01f5f7c5484 = L.marker(
+                [50.753012, 6.15888],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_c4807c670238d4767cda556d488b6523 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_44a074015624eeca4daca01f5f7c5484.setIcon(icon_c4807c670238d4767cda556d488b6523);
+        
+    
+        var popup_f28843ebfc3fa2db98bc013fa9c0f3da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_566854f24441f61301685a237922d244 = $(`<div id="html_566854f24441f61301685a237922d244" style="width: 100.0%; height: 100.0%;">Brander Bahnhof transactions = 44</div>`)[0];
+            popup_f28843ebfc3fa2db98bc013fa9c0f3da.setContent(html_566854f24441f61301685a237922d244);
+        
+
+        marker_44a074015624eeca4daca01f5f7c5484.bindPopup(popup_f28843ebfc3fa2db98bc013fa9c0f3da)
+        ;
+
+        
+    
+    
+            var marker_e5d384ded2023a9c872a36d37d51f3fe = L.marker(
+                [50.789339, 6.112025],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_a88648ddcc11c70131b84ed885c99eb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e5d384ded2023a9c872a36d37d51f3fe.setIcon(icon_a88648ddcc11c70131b84ed885c99eb9);
+        
+    
+        var popup_272a23927f6e73d050234c1a586bec13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83cb6a789c4fcefc3d3d66b58a275fba = $(`<div id="html_83cb6a789c4fcefc3d3d66b58a275fba" style="width: 100.0%; height: 100.0%;">umlaut SE transactions = 45</div>`)[0];
+            popup_272a23927f6e73d050234c1a586bec13.setContent(html_83cb6a789c4fcefc3d3d66b58a275fba);
+        
+
+        marker_e5d384ded2023a9c872a36d37d51f3fe.bindPopup(popup_272a23927f6e73d050234c1a586bec13)
+        ;
+
+        
+    
+    
+            var marker_7e40786ade618718e4b61a730427645d = L.marker(
+                [50.765968, 6.060483],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d6704fc19937f617e5100273c9eb2040 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_7e40786ade618718e4b61a730427645d.setIcon(icon_d6704fc19937f617e5100273c9eb2040);
+        
+    
+        var popup_986093256b57bfef6fbb5ff6c89bcf25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25edfbbb3f7a2d518d08e7efe9bcb02a = $(`<div id="html_25edfbbb3f7a2d518d08e7efe9bcb02a" style="width: 100.0%; height: 100.0%;">Kronenberg transactions = 47</div>`)[0];
+            popup_986093256b57bfef6fbb5ff6c89bcf25.setContent(html_25edfbbb3f7a2d518d08e7efe9bcb02a);
+        
+
+        marker_7e40786ade618718e4b61a730427645d.bindPopup(popup_986093256b57bfef6fbb5ff6c89bcf25)
+        ;
+
+        
+    
+    
+            var marker_58e216ffb901a07183deba577e5b79ae = L.marker(
+                [50.781467, 6.102905],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_1c67d2e8cf24f763c033c1140291af25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_58e216ffb901a07183deba577e5b79ae.setIcon(icon_1c67d2e8cf24f763c033c1140291af25);
+        
+    
+        var popup_6f985f36750657d505a33facfa5c1db2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_108ce4ae77a3452a58860ee269c76556 = $(`<div id="html_108ce4ae77a3452a58860ee269c76556" style="width: 100.0%; height: 100.0%;">Nordbahnhof transactions = 48</div>`)[0];
+            popup_6f985f36750657d505a33facfa5c1db2.setContent(html_108ce4ae77a3452a58860ee269c76556);
+        
+
+        marker_58e216ffb901a07183deba577e5b79ae.bindPopup(popup_6f985f36750657d505a33facfa5c1db2)
+        ;
+
+        
+    
+    
+            var marker_f8dcb371e735679e17b78314b7d102ca = L.marker(
+                [50.790318, 6.060343],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d7c1fee460d01596977ef09a0729509d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f8dcb371e735679e17b78314b7d102ca.setIcon(icon_d7c1fee460d01596977ef09a0729509d);
+        
+    
+        var popup_0696a108683cd01cf622456f0db5d93d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1621b80517285a98b6368f63c59ee84 = $(`<div id="html_f1621b80517285a98b6368f63c59ee84" style="width: 100.0%; height: 100.0%;">Ford I - Süsterfeldstraße transactions = 49</div>`)[0];
+            popup_0696a108683cd01cf622456f0db5d93d.setContent(html_f1621b80517285a98b6368f63c59ee84);
+        
+
+        marker_f8dcb371e735679e17b78314b7d102ca.bindPopup(popup_0696a108683cd01cf622456f0db5d93d)
+        ;
+
+        
+    
+    
+            var marker_4993c58a65e8142dc11427acabed9c7f = L.marker(
+                [50.768439, 6.056652],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_e585c4804206f16cbd1574d9187c84a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4993c58a65e8142dc11427acabed9c7f.setIcon(icon_e585c4804206f16cbd1574d9187c84a5);
+        
+    
+        var popup_872ddb033eb4259ae83c0e75f7216244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0afe52edbef244a8453a9781eda3662 = $(`<div id="html_c0afe52edbef244a8453a9781eda3662" style="width: 100.0%; height: 100.0%;">Campusliving / Kronenberg transactions = 52</div>`)[0];
+            popup_872ddb033eb4259ae83c0e75f7216244.setContent(html_c0afe52edbef244a8453a9781eda3662);
+        
+
+        marker_4993c58a65e8142dc11427acabed9c7f.bindPopup(popup_872ddb033eb4259ae83c0e75f7216244)
+        ;
+
+        
+    
+    
+            var marker_a277ba41a3f995f91c3e4f9d6f2d1916 = L.marker(
+                [50.775857, 6.09104],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_eb4dfc5061f4b57717797d6b3f5a9c32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a277ba41a3f995f91c3e4f9d6f2d1916.setIcon(icon_eb4dfc5061f4b57717797d6b3f5a9c32);
+        
+    
+        var popup_bc9e3387a8a3094e2489ceff984f6de4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ec4f0792232f7df76061e1cde48dc4d = $(`<div id="html_5ec4f0792232f7df76061e1cde48dc4d" style="width: 100.0%; height: 100.0%;">Willy-Brandt-Platz transactions = 53</div>`)[0];
+            popup_bc9e3387a8a3094e2489ceff984f6de4.setContent(html_5ec4f0792232f7df76061e1cde48dc4d);
+        
+
+        marker_a277ba41a3f995f91c3e4f9d6f2d1916.bindPopup(popup_bc9e3387a8a3094e2489ceff984f6de4)
+        ;
+
+        
+    
+    
+            var marker_90e03ff998ddb7d55ed0b82d3d8178a4 = L.marker(
+                [50.790661367218, 6.0609168196697],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_f5916d6b2431fe7692b2ea41513a9763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90e03ff998ddb7d55ed0b82d3d8178a4.setIcon(icon_f5916d6b2431fe7692b2ea41513a9763);
+        
+    
+        var popup_e97232ac438245ad1274d7a1107819fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1448c4912a098b7f2cc8e66a932b71a = $(`<div id="html_d1448c4912a098b7f2cc8e66a932b71a" style="width: 100.0%; height: 100.0%;">Ford II - Kackertstrasse transactions = 53</div>`)[0];
+            popup_e97232ac438245ad1274d7a1107819fc.setContent(html_d1448c4912a098b7f2cc8e66a932b71a);
+        
+
+        marker_90e03ff998ddb7d55ed0b82d3d8178a4.bindPopup(popup_e97232ac438245ad1274d7a1107819fc)
+        ;
+
+        
+    
+    
+            var marker_1ae7a9e6f5885d48f325040a5f412e2f = L.marker(
+                [50.769311, 6.077911],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d9499450fd3ecf0f6e83048cad9ce39f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ae7a9e6f5885d48f325040a5f412e2f.setIcon(icon_d9499450fd3ecf0f6e83048cad9ce39f);
+        
+    
+        var popup_a9fe795608c22b616c4a5fd1698ad8d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c406cdea03181d8873c04ebf52ef8db = $(`<div id="html_8c406cdea03181d8873c04ebf52ef8db" style="width: 100.0%; height: 100.0%;">Hubertusplatz transactions = 54</div>`)[0];
+            popup_a9fe795608c22b616c4a5fd1698ad8d2.setContent(html_8c406cdea03181d8873c04ebf52ef8db);
+        
+
+        marker_1ae7a9e6f5885d48f325040a5f412e2f.bindPopup(popup_a9fe795608c22b616c4a5fd1698ad8d2)
+        ;
+
+        
+    
+    
+            var marker_f0e0153117dec4b0456d090faa0581e5 = L.marker(
+                [50.780059132074, 6.0508462601378],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_5e7b84b22c17d7c3495be939d41a5d3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0e0153117dec4b0456d090faa0581e5.setIcon(icon_5e7b84b22c17d7c3495be939d41a5d3e);
+        
+    
+        var popup_6388f408eb2a54f234d987bf0e49e013 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0966a912d787393a1dc3e78a69b4c15d = $(`<div id="html_0966a912d787393a1dc3e78a69b4c15d" style="width: 100.0%; height: 100.0%;">Forckenbeckstraße transactions = 55</div>`)[0];
+            popup_6388f408eb2a54f234d987bf0e49e013.setContent(html_0966a912d787393a1dc3e78a69b4c15d);
+        
+
+        marker_f0e0153117dec4b0456d090faa0581e5.bindPopup(popup_6388f408eb2a54f234d987bf0e49e013)
+        ;
+
+        
+    
+    
+            var marker_7ae4f9c86b0cba90377c6ea1f6595323 = L.marker(
+                [50.768387, 6.09477],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_f707a5076d8c2eb62089d96e2903d38c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ae4f9c86b0cba90377c6ea1f6595323.setIcon(icon_f707a5076d8c2eb62089d96e2903d38c);
+        
+    
+        var popup_67320ef1539ace314d41d5fdba8bbf6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6eeefed004c7ab849cb511f335746eb = $(`<div id="html_a6eeefed004c7ab849cb511f335746eb" style="width: 100.0%; height: 100.0%;">Normaluhr transactions = 55</div>`)[0];
+            popup_67320ef1539ace314d41d5fdba8bbf6d.setContent(html_a6eeefed004c7ab849cb511f335746eb);
+        
+
+        marker_7ae4f9c86b0cba90377c6ea1f6595323.bindPopup(popup_67320ef1539ace314d41d5fdba8bbf6d)
+        ;
+
+        
+    
+    
+            var marker_c446e47f4512db0d2640a0793f08496d = L.marker(
+                [50.7784615, 6.0862856],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d139adfb0eee664b12d76e71ac93de1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c446e47f4512db0d2640a0793f08496d.setIcon(icon_d139adfb0eee664b12d76e71ac93de1c);
+        
+    
+        var popup_d66ea19a02660802163d14dbd08c16bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_136a68a400374f9ced994700fa2b68a6 = $(`<div id="html_136a68a400374f9ced994700fa2b68a6" style="width: 100.0%; height: 100.0%;">Martinstraße transactions = 56</div>`)[0];
+            popup_d66ea19a02660802163d14dbd08c16bc.setContent(html_136a68a400374f9ced994700fa2b68a6);
+        
+
+        marker_c446e47f4512db0d2640a0793f08496d.bindPopup(popup_d66ea19a02660802163d14dbd08c16bc)
+        ;
+
+        
+    
+    
+            var marker_e14f1a63b52553d65f4be4ce58a5dbf3 = L.marker(
+                [50.832584, 6.045743],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_a995b199e6ffffa10282bed9676914d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e14f1a63b52553d65f4be4ce58a5dbf3.setIcon(icon_a995b199e6ffffa10282bed9676914d5);
+        
+    
+        var popup_3af3b359453f0c00ab52e12b37fc2a38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_071ab79710f12918f44d41b09fc754e9 = $(`<div id="html_071ab79710f12918f44d41b09fc754e9" style="width: 100.0%; height: 100.0%;">Horbach transactions = 60</div>`)[0];
+            popup_3af3b359453f0c00ab52e12b37fc2a38.setContent(html_071ab79710f12918f44d41b09fc754e9);
+        
+
+        marker_e14f1a63b52553d65f4be4ce58a5dbf3.bindPopup(popup_3af3b359453f0c00ab52e12b37fc2a38)
+        ;
+
+        
+    
+    
+            var marker_cecca36ebd5dc2c4bc984dce11cce97e = L.marker(
+                [50.773541, 6.083935],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_a041c0042997e7c2f0213a36414fab03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cecca36ebd5dc2c4bc984dce11cce97e.setIcon(icon_a041c0042997e7c2f0213a36414fab03);
+        
+    
+        var popup_f544860a2b88dc6aaa433de3717c21f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4df5bd56b7fbfc648cba98af0dca9067 = $(`<div id="html_4df5bd56b7fbfc648cba98af0dca9067" style="width: 100.0%; height: 100.0%;">Kleinmarschierstraße transactions = 60</div>`)[0];
+            popup_f544860a2b88dc6aaa433de3717c21f9.setContent(html_4df5bd56b7fbfc648cba98af0dca9067);
+        
+
+        marker_cecca36ebd5dc2c4bc984dce11cce97e.bindPopup(popup_f544860a2b88dc6aaa433de3717c21f9)
+        ;
+
+        
+    
+    
+            var marker_7d31e1d0b71159185b22be3693f63c17 = L.marker(
+                [50.755382, 6.143545],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_ed68b84e5b34da8795ae5558a08e996e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d31e1d0b71159185b22be3693f63c17.setIcon(icon_ed68b84e5b34da8795ae5558a08e996e);
+        
+    
+        var popup_cae31eb8091bd9c60182a89cfdcd0bad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e82954fbbe8a73e03f7ee091e218ffa6 = $(`<div id="html_e82954fbbe8a73e03f7ee091e218ffa6" style="width: 100.0%; height: 100.0%;">Driescher Hof transactions = 60</div>`)[0];
+            popup_cae31eb8091bd9c60182a89cfdcd0bad.setContent(html_e82954fbbe8a73e03f7ee091e218ffa6);
+        
+
+        marker_7d31e1d0b71159185b22be3693f63c17.bindPopup(popup_cae31eb8091bd9c60182a89cfdcd0bad)
+        ;
+
+        
+    
+    
+            var marker_27d6dcdb8fa5ce494aac1362f6d1ee72 = L.marker(
+                [50.774648, 6.085778],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_fc9a35344effa60cf72fe5487ba8dd19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27d6dcdb8fa5ce494aac1362f6d1ee72.setIcon(icon_fc9a35344effa60cf72fe5487ba8dd19);
+        
+    
+        var popup_176fb28476c1782553c3bc0fd336c0a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_926bf519b0938f1d1d3e31c81e594a82 = $(`<div id="html_926bf519b0938f1d1d3e31c81e594a82" style="width: 100.0%; height: 100.0%;">Courté / Ursulinerstraße transactions = 62</div>`)[0];
+            popup_176fb28476c1782553c3bc0fd336c0a0.setContent(html_926bf519b0938f1d1d3e31c81e594a82);
+        
+
+        marker_27d6dcdb8fa5ce494aac1362f6d1ee72.bindPopup(popup_176fb28476c1782553c3bc0fd336c0a0)
+        ;
+
+        
+    
+    
+            var marker_3dde46b21584276b09488c40d7d7f0f1 = L.marker(
+                [50.775129, 6.082485],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_9ce1738b39b586b4516b115f50f684bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3dde46b21584276b09488c40d7d7f0f1.setIcon(icon_9ce1738b39b586b4516b115f50f684bd);
+        
+    
+        var popup_45efeb6c415aac858ca0de52fb63cf5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_880e9641d0fb4e41cc5a1331d3df35aa = $(`<div id="html_880e9641d0fb4e41cc5a1331d3df35aa" style="width: 100.0%; height: 100.0%;">Klosterplatz transactions = 63</div>`)[0];
+            popup_45efeb6c415aac858ca0de52fb63cf5a.setContent(html_880e9641d0fb4e41cc5a1331d3df35aa);
+        
+
+        marker_3dde46b21584276b09488c40d7d7f0f1.bindPopup(popup_45efeb6c415aac858ca0de52fb63cf5a)
+        ;
+
+        
+    
+    
+            var marker_acb4b66686670118d3b968ab2525153b = L.marker(
+                [50.786773, 6.050366],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_050d978abe802fb4da0ceeb91eb3803d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_acb4b66686670118d3b968ab2525153b.setIcon(icon_050d978abe802fb4da0ceeb91eb3803d);
+        
+    
+        var popup_f1f8dc6fda3b131730d13a5ae5fd7aab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faf8d26911687021c04a19d2cbb4e5fb = $(`<div id="html_faf8d26911687021c04a19d2cbb4e5fb" style="width: 100.0%; height: 100.0%;">VKA transactions = 66</div>`)[0];
+            popup_f1f8dc6fda3b131730d13a5ae5fd7aab.setContent(html_faf8d26911687021c04a19d2cbb4e5fb);
+        
+
+        marker_acb4b66686670118d3b968ab2525153b.bindPopup(popup_f1f8dc6fda3b131730d13a5ae5fd7aab)
+        ;
+
+        
+    
+    
+            var marker_85fad2adc638471aa1f11f0209163ae3 = L.marker(
+                [50.775103, 6.163414],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_a52973a14b8fbf9b2d1d5cc7c7d6b468 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85fad2adc638471aa1f11f0209163ae3.setIcon(icon_a52973a14b8fbf9b2d1d5cc7c7d6b468);
+        
+    
+        var popup_f4e1de6a944c7a3fcc2ec7463fa55c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b4e8d73ff83ec410b52f98a52680fc4 = $(`<div id="html_7b4e8d73ff83ec410b52f98a52680fc4" style="width: 100.0%; height: 100.0%;">Breitbenden/Franz-Delheid-Straße transactions = 67</div>`)[0];
+            popup_f4e1de6a944c7a3fcc2ec7463fa55c4f.setContent(html_7b4e8d73ff83ec410b52f98a52680fc4);
+        
+
+        marker_85fad2adc638471aa1f11f0209163ae3.bindPopup(popup_f4e1de6a944c7a3fcc2ec7463fa55c4f)
+        ;
+
+        
+    
+    
+            var marker_5a9ba3b0eabd7cffb53ddef4ebe789ed = L.marker(
+                [50.764341, 6.115715],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_67190522d25a72bc005c72d0d5348ab0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a9ba3b0eabd7cffb53ddef4ebe789ed.setIcon(icon_67190522d25a72bc005c72d0d5348ab0);
+        
+    
+        var popup_8a132c0ae77a26059f460adca5f3dafc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da20c939f62e045323c1ecd73b9d14b3 = $(`<div id="html_da20c939f62e045323c1ecd73b9d14b3" style="width: 100.0%; height: 100.0%;">Euregiozoo transactions = 68</div>`)[0];
+            popup_8a132c0ae77a26059f460adca5f3dafc.setContent(html_da20c939f62e045323c1ecd73b9d14b3);
+        
+
+        marker_5a9ba3b0eabd7cffb53ddef4ebe789ed.bindPopup(popup_8a132c0ae77a26059f460adca5f3dafc)
+        ;
+
+        
+    
+    
+            var marker_f66e3c7a282af58e53432ecac3901a9c = L.marker(
+                [50.767935, 6.077776],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_44fe27080fe6b01411cd81ae6679fdbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f66e3c7a282af58e53432ecac3901a9c.setIcon(icon_44fe27080fe6b01411cd81ae6679fdbd);
+        
+    
+        var popup_43a87e19e8ff757127f3239a67d14515 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1586f45d097b7c0b1f776cb622f4b0a8 = $(`<div id="html_1586f45d097b7c0b1f776cb622f4b0a8" style="width: 100.0%; height: 100.0%;">Luisenhospital Aachen transactions = 70</div>`)[0];
+            popup_43a87e19e8ff757127f3239a67d14515.setContent(html_1586f45d097b7c0b1f776cb622f4b0a8);
+        
+
+        marker_f66e3c7a282af58e53432ecac3901a9c.bindPopup(popup_43a87e19e8ff757127f3239a67d14515)
+        ;
+
+        
+    
+    
+            var marker_89ba454bf6dc29c8765121c59a505cb6 = L.marker(
+                [50.7743, 6.1086],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_6415cfbf30256d34d6d98ac34d69d752 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_89ba454bf6dc29c8765121c59a505cb6.setIcon(icon_6415cfbf30256d34d6d98ac34d69d752);
+        
+    
+        var popup_b17089f9bea3a8596f9ca51e8ed2e97c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_710c3855acb5f771c6da793f7cb64b66 = $(`<div id="html_710c3855acb5f771c6da793f7cb64b66" style="width: 100.0%; height: 100.0%;">Josefskirche transactions = 70</div>`)[0];
+            popup_b17089f9bea3a8596f9ca51e8ed2e97c.setContent(html_710c3855acb5f771c6da793f7cb64b66);
+        
+
+        marker_89ba454bf6dc29c8765121c59a505cb6.bindPopup(popup_b17089f9bea3a8596f9ca51e8ed2e97c)
+        ;
+
+        
+    
+    
+            var marker_0528a0b34c8a017249dd9398bf30638e = L.marker(
+                [50.796905, 6.1555],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_7723337290ec015bceb22e4ff082dffc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0528a0b34c8a017249dd9398bf30638e.setIcon(icon_7723337290ec015bceb22e4ff082dffc);
+        
+    
+        var popup_1ab2b4bf7d71fa1aec5aa3808676906e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f86421eb3e1a1709dd518962353ea7bb = $(`<div id="html_f86421eb3e1a1709dd518962353ea7bb" style="width: 100.0%; height: 100.0%;">Verlautenheide VR-Bank transactions = 70</div>`)[0];
+            popup_1ab2b4bf7d71fa1aec5aa3808676906e.setContent(html_f86421eb3e1a1709dd518962353ea7bb);
+        
+
+        marker_0528a0b34c8a017249dd9398bf30638e.bindPopup(popup_1ab2b4bf7d71fa1aec5aa3808676906e)
+        ;
+
+        
+    
+    
+            var marker_c249d4321dd228bebf951afd447a5876 = L.marker(
+                [50.784096, 6.043728],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_9c70dd89b5955c036c60d2459d50669b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c249d4321dd228bebf951afd447a5876.setIcon(icon_9c70dd89b5955c036c60d2459d50669b);
+        
+    
+        var popup_31775ea5b9dc690ce8e18844613bfbdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fa80d944c71de6b739b3bed363ff180 = $(`<div id="html_3fa80d944c71de6b739b3bed363ff180" style="width: 100.0%; height: 100.0%;">Techniker Krankenkasse - Campus-Boulevard transactions = 73</div>`)[0];
+            popup_31775ea5b9dc690ce8e18844613bfbdd.setContent(html_3fa80d944c71de6b739b3bed363ff180);
+        
+
+        marker_c249d4321dd228bebf951afd447a5876.bindPopup(popup_31775ea5b9dc690ce8e18844613bfbdd)
+        ;
+
+        
+    
+    
+            var marker_d66fc3e71d3f9d391e415e2c30bc68e9 = L.marker(
+                [50.780252, 6.10441],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_8db00d42c280ed8dae2472648b0bdd5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d66fc3e71d3f9d391e415e2c30bc68e9.setIcon(icon_8db00d42c280ed8dae2472648b0bdd5a);
+        
+    
+        var popup_53af8314538fc141faa0dd9aca1ab714 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a463935cbaf46a87071a0deec89129e = $(`<div id="html_0a463935cbaf46a87071a0deec89129e" style="width: 100.0%; height: 100.0%;">TZA - Technologiezentrum am Europaplatz transactions = 75</div>`)[0];
+            popup_53af8314538fc141faa0dd9aca1ab714.setContent(html_0a463935cbaf46a87071a0deec89129e);
+        
+
+        marker_d66fc3e71d3f9d391e415e2c30bc68e9.bindPopup(popup_53af8314538fc141faa0dd9aca1ab714)
+        ;
+
+        
+    
+    
+            var marker_f03feeeb392c65e07dc25d9d1548e0aa = L.marker(
+                [50.78499, 6.108865],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_18da34eaae4935ff2de04cf95b734a19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f03feeeb392c65e07dc25d9d1548e0aa.setIcon(icon_18da34eaae4935ff2de04cf95b734a19);
+        
+    
+        var popup_8a4e37ca574433f5216a0de907f950da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01bf16bb0ab581afe21aed8060e534dd = $(`<div id="html_01bf16bb0ab581afe21aed8060e534dd" style="width: 100.0%; height: 100.0%;">StreetScooter transactions = 75</div>`)[0];
+            popup_8a4e37ca574433f5216a0de907f950da.setContent(html_01bf16bb0ab581afe21aed8060e534dd);
+        
+
+        marker_f03feeeb392c65e07dc25d9d1548e0aa.bindPopup(popup_8a4e37ca574433f5216a0de907f950da)
+        ;
+
+        
+    
+    
+            var marker_dd1a400bef12218b8f64147b78cab03c = L.marker(
+                [50.764571, 6.069997],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_81dd05f6bad7263aed2dfce026ebbe13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd1a400bef12218b8f64147b78cab03c.setIcon(icon_81dd05f6bad7263aed2dfce026ebbe13);
+        
+    
+        var popup_4c3f0f16e09680248f8c9dbea16f1cee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_785b1f867d02bdbb463559d9ffab3b03 = $(`<div id="html_785b1f867d02bdbb463559d9ffab3b03" style="width: 100.0%; height: 100.0%;">Franziskushospital transactions = 77</div>`)[0];
+            popup_4c3f0f16e09680248f8c9dbea16f1cee.setContent(html_785b1f867d02bdbb463559d9ffab3b03);
+        
+
+        marker_dd1a400bef12218b8f64147b78cab03c.bindPopup(popup_4c3f0f16e09680248f8c9dbea16f1cee)
+        ;
+
+        
+    
+    
+            var marker_66edeac107b59624d915254c7dc1fc96 = L.marker(
+                [50.768349, 6.083681],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_399f6f0807032b604ff4fec4eed09df6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66edeac107b59624d915254c7dc1fc96.setIcon(icon_399f6f0807032b604ff4fec4eed09df6);
+        
+    
+        var popup_3e7e32e2e4d0db0fa693e4d850f309c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d146567e98daadb207f35041c324f18 = $(`<div id="html_7d146567e98daadb207f35041c324f18" style="width: 100.0%; height: 100.0%;">Stadtverwaltung - Mozartstraße transactions = 78</div>`)[0];
+            popup_3e7e32e2e4d0db0fa693e4d850f309c6.setContent(html_7d146567e98daadb207f35041c324f18);
+        
+
+        marker_66edeac107b59624d915254c7dc1fc96.bindPopup(popup_3e7e32e2e4d0db0fa693e4d850f309c6)
+        ;
+
+        
+    
+    
+            var marker_49d9afc8de469018d75f8726cbd7ef82 = L.marker(
+                [50.77155, 6.09284],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_6c3d8f2f0374d0c3c8c66ceba6828fc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49d9afc8de469018d75f8726cbd7ef82.setIcon(icon_6c3d8f2f0374d0c3c8c66ceba6828fc1);
+        
+    
+        var popup_804130897a2df31bfcc1fef4149aa33c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb85a9e3edd9ff25f00318cc15402898 = $(`<div id="html_cb85a9e3edd9ff25f00318cc15402898" style="width: 100.0%; height: 100.0%;">Harscampstraße transactions = 80</div>`)[0];
+            popup_804130897a2df31bfcc1fef4149aa33c.setContent(html_cb85a9e3edd9ff25f00318cc15402898);
+        
+
+        marker_49d9afc8de469018d75f8726cbd7ef82.bindPopup(popup_804130897a2df31bfcc1fef4149aa33c)
+        ;
+
+        
+    
+    
+            var marker_c5a9c506f6e0a944a1ded3ac6120b3fc = L.marker(
+                [50.789049, 6.0484305],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d8f5423cd4ed35bb01c7aefa73cfe637 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5a9c506f6e0a944a1ded3ac6120b3fc.setIcon(icon_d8f5423cd4ed35bb01c7aefa73cfe637);
+        
+    
+        var popup_8a1452f7d72c9ddfb3bc5f3917759ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_953fd883b9fb7467df7e75610b03b669 = $(`<div id="html_953fd883b9fb7467df7e75610b03b669" style="width: 100.0%; height: 100.0%;">E.ON ERC transactions = 81</div>`)[0];
+            popup_8a1452f7d72c9ddfb3bc5f3917759ea1.setContent(html_953fd883b9fb7467df7e75610b03b669);
+        
+
+        marker_c5a9c506f6e0a944a1ded3ac6120b3fc.bindPopup(popup_8a1452f7d72c9ddfb3bc5f3917759ea1)
+        ;
+
+        
+    
+    
+            var marker_72aefcdbcc5b9b1908739c509fb62a53 = L.marker(
+                [50.795454, 6.126766],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_afba212747f1a55bc4e08950cdf53622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72aefcdbcc5b9b1908739c509fb62a53.setIcon(icon_afba212747f1a55bc4e08950cdf53622);
+        
+    
+        var popup_895ced63473fe5cf04b423f45b26a6dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6de20ab1e110f7f6ff9e9843c2a104d = $(`<div id="html_c6de20ab1e110f7f6ff9e9843c2a104d" style="width: 100.0%; height: 100.0%;">Haaren-Markt VR-Bank transactions = 85</div>`)[0];
+            popup_895ced63473fe5cf04b423f45b26a6dc.setContent(html_c6de20ab1e110f7f6ff9e9843c2a104d);
+        
+
+        marker_72aefcdbcc5b9b1908739c509fb62a53.bindPopup(popup_895ced63473fe5cf04b423f45b26a6dc)
+        ;
+
+        
+    
+    
+            var marker_a3d07e9ab857d0c9a7b925dbc0be3963 = L.marker(
+                [50.764548006128, 6.0806441658427],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_bb78270a3792658aed3dd179875f912c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a3d07e9ab857d0c9a7b925dbc0be3963.setIcon(icon_bb78270a3792658aed3dd179875f912c);
+        
+    
+        var popup_e2afc26591d3949b5b2043c24100f066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f7dd238f76a09d361864e05c883c012 = $(`<div id="html_0f7dd238f76a09d361864e05c883c012" style="width: 100.0%; height: 100.0%;">FH - Habsburgerallee / Goethestraße transactions = 86</div>`)[0];
+            popup_e2afc26591d3949b5b2043c24100f066.setContent(html_0f7dd238f76a09d361864e05c883c012);
+        
+
+        marker_a3d07e9ab857d0c9a7b925dbc0be3963.bindPopup(popup_e2afc26591d3949b5b2043c24100f066)
+        ;
+
+        
+    
+    
+            var marker_fdc6535694d0321c2960727a71d40302 = L.marker(
+                [50.779569, 6.100946],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_65af9b7bafd40fa0e2e34d0758287aa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fdc6535694d0321c2960727a71d40302.setIcon(icon_65af9b7bafd40fa0e2e34d0758287aa1);
+        
+    
+        var popup_6564a112ab512b00416674bad28da787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00653fbb8e2552f35cb0d26e60fb4d31 = $(`<div id="html_00653fbb8e2552f35cb0d26e60fb4d31" style="width: 100.0%; height: 100.0%;">digitalHUB transactions = 88</div>`)[0];
+            popup_6564a112ab512b00416674bad28da787.setContent(html_00653fbb8e2552f35cb0d26e60fb4d31);
+        
+
+        marker_fdc6535694d0321c2960727a71d40302.bindPopup(popup_6564a112ab512b00416674bad28da787)
+        ;
+
+        
+    
+    
+            var marker_cd090f5c42d701619a838c3772e282c5 = L.marker(
+                [50.7778, 6.0885],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_32f6a85ff7dfe7eb98231776bdb07b36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd090f5c42d701619a838c3772e282c5.setIcon(icon_32f6a85ff7dfe7eb98231776bdb07b36);
+        
+    
+        var popup_a5d97a551e6394cb69976ed76c38eaed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75b8fb88173e4ca29b95904f376ad2fa = $(`<div id="html_75b8fb88173e4ca29b95904f376ad2fa" style="width: 100.0%; height: 100.0%;">Sparkasse - Komphausbadstraße transactions = 89</div>`)[0];
+            popup_a5d97a551e6394cb69976ed76c38eaed.setContent(html_75b8fb88173e4ca29b95904f376ad2fa);
+        
+
+        marker_cd090f5c42d701619a838c3772e282c5.bindPopup(popup_a5d97a551e6394cb69976ed76c38eaed)
+        ;
+
+        
+    
+    
+            var marker_df929cff31a3f67978589435a0515221 = L.marker(
+                [50.785117, 6.130303],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_fd796c202ce6f61382eeb939e56c1fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df929cff31a3f67978589435a0515221.setIcon(icon_fd796c202ce6f61382eeb939e56c1fca);
+        
+    
+        var popup_39ba9b3c5677351ac82b9aca56982acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8d8334c1f050fdd9c9fbc68f4aa5688 = $(`<div id="html_f8d8334c1f050fdd9c9fbc68f4aa5688" style="width: 100.0%; height: 100.0%;">ASEAG transactions = 89</div>`)[0];
+            popup_39ba9b3c5677351ac82b9aca56982acc.setContent(html_f8d8334c1f050fdd9c9fbc68f4aa5688);
+        
+
+        marker_df929cff31a3f67978589435a0515221.bindPopup(popup_39ba9b3c5677351ac82b9aca56982acc)
+        ;
+
+        
+    
+    
+            var marker_d0be25b8e20e32c8cb4bfebe707658b0 = L.marker(
+                [50.768890608734, 6.097549200836],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_79f7169a0d5afaa4ff54cffc59911f4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0be25b8e20e32c8cb4bfebe707658b0.setIcon(icon_79f7169a0d5afaa4ff54cffc59911f4d);
+        
+    
+        var popup_30fa878336d2eb8d3954fcbc3f040c70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68e0036cbab97948dcebd1bb93f406ed = $(`<div id="html_68e0036cbab97948dcebd1bb93f406ed" style="width: 100.0%; height: 100.0%;">Haus der StädteRegion transactions = 91</div>`)[0];
+            popup_30fa878336d2eb8d3954fcbc3f040c70.setContent(html_68e0036cbab97948dcebd1bb93f406ed);
+        
+
+        marker_d0be25b8e20e32c8cb4bfebe707658b0.bindPopup(popup_30fa878336d2eb8d3954fcbc3f040c70)
+        ;
+
+        
+    
+    
+            var marker_178a6eb8107b4129bf918882816baf35 = L.marker(
+                [50.790663, 6.096834],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_583a429eaed9c77db2031ac3b4621ba0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_178a6eb8107b4129bf918882816baf35.setIcon(icon_583a429eaed9c77db2031ac3b4621ba0);
+        
+    
+        var popup_4d4b302b7159c1f287ecb9d10323467f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3593cc8d4b2a409e5249537beed10d3 = $(`<div id="html_f3593cc8d4b2a409e5249537beed10d3" style="width: 100.0%; height: 100.0%;">Alter Tivoli transactions = 92</div>`)[0];
+            popup_4d4b302b7159c1f287ecb9d10323467f.setContent(html_f3593cc8d4b2a409e5249537beed10d3);
+        
+
+        marker_178a6eb8107b4129bf918882816baf35.bindPopup(popup_4d4b302b7159c1f287ecb9d10323467f)
+        ;
+
+        
+    
+    
+            var marker_b76f6989006f198450ffa90244b6b33e = L.marker(
+                [50.777934842168, 6.061129897578],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_d65e8204bf76aa5b995343f57e83e806 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b76f6989006f198450ffa90244b6b33e.setIcon(icon_d65e8204bf76aa5b995343f57e83e806);
+        
+    
+        var popup_b737001d669e025bfadefe124cd0f56c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_881c129111572ca782b0df1bb3071f4b = $(`<div id="html_881c129111572ca782b0df1bb3071f4b" style="width: 100.0%; height: 100.0%;">Informatikzentrum transactions = 93</div>`)[0];
+            popup_b737001d669e025bfadefe124cd0f56c.setContent(html_881c129111572ca782b0df1bb3071f4b);
+        
+
+        marker_b76f6989006f198450ffa90244b6b33e.bindPopup(popup_b737001d669e025bfadefe124cd0f56c)
+        ;
+
+        
+    
+    
+            var marker_8e15b86823e6c34d812d61dce7a75479 = L.marker(
+                [50.776099, 6.080274],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_229d9a5a3abe5360ee792eb70b0b9072 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e15b86823e6c34d812d61dce7a75479.setIcon(icon_229d9a5a3abe5360ee792eb70b0b9072);
+        
+    
+        var popup_9e53e158fc2de4e1a38021e44be4f45c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38b0f004de2ea9c4b5a95ccf31ab7b3d = $(`<div id="html_38b0f004de2ea9c4b5a95ccf31ab7b3d" style="width: 100.0%; height: 100.0%;">Annuntiatenbach transactions = 94</div>`)[0];
+            popup_9e53e158fc2de4e1a38021e44be4f45c.setContent(html_38b0f004de2ea9c4b5a95ccf31ab7b3d);
+        
+
+        marker_8e15b86823e6c34d812d61dce7a75479.bindPopup(popup_9e53e158fc2de4e1a38021e44be4f45c)
+        ;
+
+        
+    
+    
+            var marker_37274a84bb569b7d5b4deb9a3a145309 = L.marker(
+                [50.757699564055, 6.0845426633046],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_4b08e7a508d9ab804d76156a0091578b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37274a84bb569b7d5b4deb9a3a145309.setIcon(icon_4b08e7a508d9ab804d76156a0091578b);
+        
+    
+        var popup_18dd975564b8ac9690b478ff3a57a85b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf7c0b0c15adeee5976e0a1a087f5577 = $(`<div id="html_bf7c0b0c15adeee5976e0a1a087f5577" style="width: 100.0%; height: 100.0%;">FH - Eupener Straße / Weißhausstraße transactions = 96</div>`)[0];
+            popup_18dd975564b8ac9690b478ff3a57a85b.setContent(html_bf7c0b0c15adeee5976e0a1a087f5577);
+        
+
+        marker_37274a84bb569b7d5b4deb9a3a145309.bindPopup(popup_18dd975564b8ac9690b478ff3a57a85b)
+        ;
+
+        
+    
+    
+            var marker_b2616760099ef1caa6ab25704c188d6c = L.marker(
+                [50.771031, 6.087005],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_0aca7770846a00e30c661d8b852ecdb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2616760099ef1caa6ab25704c188d6c.setIcon(icon_0aca7770846a00e30c661d8b852ecdb5);
+        
+    
+        var popup_72c0b0462ef787b204203f2b894b0f6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_738bc0198ef7e7bf1cd634fc8b52b59a = $(`<div id="html_738bc0198ef7e7bf1cd634fc8b52b59a" style="width: 100.0%; height: 100.0%;">Generali - AachenMünchener-Platz transactions = 97</div>`)[0];
+            popup_72c0b0462ef787b204203f2b894b0f6a.setContent(html_738bc0198ef7e7bf1cd634fc8b52b59a);
+        
+
+        marker_b2616760099ef1caa6ab25704c188d6c.bindPopup(popup_72c0b0462ef787b204203f2b894b0f6a)
+        ;
+
+        
+    
+    
+            var marker_d7e218a509ed3a47b1358b149759246a = L.marker(
+                [50.772287, 6.08046],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_0a1ec735ee493d80b2ed2ec881aa822c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7e218a509ed3a47b1358b149759246a.setIcon(icon_0a1ec735ee493d80b2ed2ec881aa822c);
+        
+    
+        var popup_3a42ea69050fb3df9ccfee365e69c117 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6941b8f36c2d4d9d50a281e2d84b6b2f = $(`<div id="html_6941b8f36c2d4d9d50a281e2d84b6b2f" style="width: 100.0%; height: 100.0%;">Mörgensstraße transactions = 97</div>`)[0];
+            popup_3a42ea69050fb3df9ccfee365e69c117.setContent(html_6941b8f36c2d4d9d50a281e2d84b6b2f);
+        
+
+        marker_d7e218a509ed3a47b1358b149759246a.bindPopup(popup_3a42ea69050fb3df9ccfee365e69c117)
+        ;
+
+        
+    
+    
+            var marker_ee36aa720a278c7daa79a4845327d281 = L.marker(
+                [50.77699, 6.067811],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_156e902ad079e71fcbd5de7a41bd2165 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_ee36aa720a278c7daa79a4845327d281.setIcon(icon_156e902ad079e71fcbd5de7a41bd2165);
+        
+    
+        var popup_dfcf6887f0f80bd5d100c3dfc3c36d44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71fa6d4e8626c776d35223ac42ae7adf = $(`<div id="html_71fa6d4e8626c776d35223ac42ae7adf" style="width: 100.0%; height: 100.0%;">Studentendorf transactions = 102</div>`)[0];
+            popup_dfcf6887f0f80bd5d100c3dfc3c36d44.setContent(html_71fa6d4e8626c776d35223ac42ae7adf);
+        
+
+        marker_ee36aa720a278c7daa79a4845327d281.bindPopup(popup_dfcf6887f0f80bd5d100c3dfc3c36d44)
+        ;
+
+        
+    
+    
+            var marker_4b66c513b391d4a28038a23e70c1e01b = L.marker(
+                [50.7811, 6.1538],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_7aa6e1d9bdb79e8ef1393d0fdd18fb46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_4b66c513b391d4a28038a23e70c1e01b.setIcon(icon_7aa6e1d9bdb79e8ef1393d0fdd18fb46);
+        
+    
+        var popup_d7b9f3353f6d5e7919cb2e9216b289a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da3775f876f5f04f2793467d1929a7cf = $(`<div id="html_da3775f876f5f04f2793467d1929a7cf" style="width: 100.0%; height: 100.0%;">Bezirksamt Eilendorf transactions = 104</div>`)[0];
+            popup_d7b9f3353f6d5e7919cb2e9216b289a7.setContent(html_da3775f876f5f04f2793467d1929a7cf);
+        
+
+        marker_4b66c513b391d4a28038a23e70c1e01b.bindPopup(popup_d7b9f3353f6d5e7919cb2e9216b289a7)
+        ;
+
+        
+    
+    
+            var marker_a182bdb1cc370398027002297e97dcd4 = L.marker(
+                [50.770494, 6.026777],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_ea7c1715eb22d4b9b2e751ea6abe8078 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_a182bdb1cc370398027002297e97dcd4.setIcon(icon_ea7c1715eb22d4b9b2e751ea6abe8078);
+        
+    
+        var popup_292a6bdf62d31a5b943e49b7991946d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32e184e1d7a9636db57ad17028788ed1 = $(`<div id="html_32e184e1d7a9636db57ad17028788ed1" style="width: 100.0%; height: 100.0%;">Vaals Grenze transactions = 107</div>`)[0];
+            popup_292a6bdf62d31a5b943e49b7991946d9.setContent(html_32e184e1d7a9636db57ad17028788ed1);
+        
+
+        marker_a182bdb1cc370398027002297e97dcd4.bindPopup(popup_292a6bdf62d31a5b943e49b7991946d9)
+        ;
+
+        
+    
+    
+            var marker_12aecb05f884c4b55c9975de24eda309 = L.marker(
+                [50.7705, 6.073184],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_c964e7343dd647ad109b9d72d42b1e3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_12aecb05f884c4b55c9975de24eda309.setIcon(icon_c964e7343dd647ad109b9d72d42b1e3f);
+        
+    
+        var popup_3066d2d69070e7395309ed1fd0fd852a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a03f4f863c1a3dae92c9c9727f1c1727 = $(`<div id="html_a03f4f863c1a3dae92c9c9727f1c1727" style="width: 100.0%; height: 100.0%;">Schanz transactions = 108</div>`)[0];
+            popup_3066d2d69070e7395309ed1fd0fd852a.setContent(html_a03f4f863c1a3dae92c9c9727f1c1727);
+        
+
+        marker_12aecb05f884c4b55c9975de24eda309.bindPopup(popup_3066d2d69070e7395309ed1fd0fd852a)
+        ;
+
+        
+    
+    
+            var marker_092092ed062f1f8b9d6465f14645954b = L.marker(
+                [50.782251857936, 6.0711566887399],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_4975a7e2f564c0373c5bafb5e008f570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_092092ed062f1f8b9d6465f14645954b.setIcon(icon_4975a7e2f564c0373c5bafb5e008f570);
+        
+    
+        var popup_2533796833cd1d2bd9c3e567c8513525 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0471f43d22662576c393f24de8a8313 = $(`<div id="html_d0471f43d22662576c393f24de8a8313" style="width: 100.0%; height: 100.0%;">Bendplatz transactions = 111</div>`)[0];
+            popup_2533796833cd1d2bd9c3e567c8513525.setContent(html_d0471f43d22662576c393f24de8a8313);
+        
+
+        marker_092092ed062f1f8b9d6465f14645954b.bindPopup(popup_2533796833cd1d2bd9c3e567c8513525)
+        ;
+
+        
+    
+    
+            var marker_5a4575b54932551662a176b3c7b43d70 = L.marker(
+                [50.774668, 6.095809],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_2f748640b7d28bad142ad9601f4b0892 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_5a4575b54932551662a176b3c7b43d70.setIcon(icon_2f748640b7d28bad142ad9601f4b0892);
+        
+    
+        var popup_4cb0b09a83f4632888404cc8157ec793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_163b36ff398b816149d0b95c38b14879 = $(`<div id="html_163b36ff398b816149d0b95c38b14879" style="width: 100.0%; height: 100.0%;">Kaiserplatz transactions = 113</div>`)[0];
+            popup_4cb0b09a83f4632888404cc8157ec793.setContent(html_163b36ff398b816149d0b95c38b14879);
+        
+
+        marker_5a4575b54932551662a176b3c7b43d70.bindPopup(popup_4cb0b09a83f4632888404cc8157ec793)
+        ;
+
+        
+    
+    
+            var marker_7355525499a7de95fd5c93954e8cc8e6 = L.marker(
+                [50.772329, 6.070775],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_749a72693ad8ce807f9ec1d085f21028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_7355525499a7de95fd5c93954e8cc8e6.setIcon(icon_749a72693ad8ce807f9ec1d085f21028);
+        
+    
+        var popup_1338771c042e81c84293e1f91ec6ed70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6fc8a65b4e41a9e16c24c7f7e79574f = $(`<div id="html_e6fc8a65b4e41a9e16c24c7f7e79574f" style="width: 100.0%; height: 100.0%;">Westpark transactions = 127</div>`)[0];
+            popup_1338771c042e81c84293e1f91ec6ed70.setContent(html_e6fc8a65b4e41a9e16c24c7f7e79574f);
+        
+
+        marker_7355525499a7de95fd5c93954e8cc8e6.bindPopup(popup_1338771c042e81c84293e1f91ec6ed70)
+        ;
+
+        
+    
+    
+            var marker_ab4bff2100d097a2f74f8f6bc4df6602 = L.marker(
+                [50.774293, 6.101401],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_6e6010fbb066134f1866ec3e293dc1b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_ab4bff2100d097a2f74f8f6bc4df6602.setIcon(icon_6e6010fbb066134f1866ec3e293dc1b0);
+        
+    
+        var popup_72daaa3484049090476cf6d99d2ab505 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8199ce07c3bfe29354b2bbe93274d4ca = $(`<div id="html_8199ce07c3bfe29354b2bbe93274d4ca" style="width: 100.0%; height: 100.0%;">Stadtverwaltung - Frankenstraße transactions = 129</div>`)[0];
+            popup_72daaa3484049090476cf6d99d2ab505.setContent(html_8199ce07c3bfe29354b2bbe93274d4ca);
+        
+
+        marker_ab4bff2100d097a2f74f8f6bc4df6602.bindPopup(popup_72daaa3484049090476cf6d99d2ab505)
+        ;
+
+        
+    
+    
+            var marker_dd0f695137d5edb3e744a72abef44e88 = L.marker(
+                [50.7773, 6.0774],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_6db297dc54babce732bda99300bc5d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_dd0f695137d5edb3e744a72abef44e88.setIcon(icon_6db297dc54babce732bda99300bc5d0b);
+        
+    
+        var popup_ddba06baa71131b444767b3937835c6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97937de267465869cd95fef15c66140c = $(`<div id="html_97937de267465869cd95fef15c66140c" style="width: 100.0%; height: 100.0%;">Schinkelstraße transactions = 130</div>`)[0];
+            popup_ddba06baa71131b444767b3937835c6e.setContent(html_97937de267465869cd95fef15c66140c);
+        
+
+        marker_dd0f695137d5edb3e744a72abef44e88.bindPopup(popup_ddba06baa71131b444767b3937835c6e)
+        ;
+
+        
+    
+    
+            var marker_3cf9745cded27d0221ea837122c354d4 = L.marker(
+                [50.778133, 6.093265],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_7ce9af05c37f9b3c80b184124557c94a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_3cf9745cded27d0221ea837122c354d4.setIcon(icon_7ce9af05c37f9b3c80b184124557c94a);
+        
+    
+        var popup_cae5101cce2a92ffff9d809d1ddcdd3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2da571eaef9b31582f0bc9b76d03b485 = $(`<div id="html_2da571eaef9b31582f0bc9b76d03b485" style="width: 100.0%; height: 100.0%;">Hansemannplatz transactions = 132</div>`)[0];
+            popup_cae5101cce2a92ffff9d809d1ddcdd3e.setContent(html_2da571eaef9b31582f0bc9b76d03b485);
+        
+
+        marker_3cf9745cded27d0221ea837122c354d4.bindPopup(popup_cae5101cce2a92ffff9d809d1ddcdd3e)
+        ;
+
+        
+    
+    
+            var marker_46665f1d2a7bb4fca74724efb909877f = L.marker(
+                [50.811021, 6.060618],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_b5ee07e3454f91113d3dacddb767217f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_46665f1d2a7bb4fca74724efb909877f.setIcon(icon_b5ee07e3454f91113d3dacddb767217f);
+        
+    
+        var popup_8714f81a9e02c4c36db32f6844b98f5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e415ca4c6ce7cc0844d7626565f35d08 = $(`<div id="html_e415ca4c6ce7cc0844d7626565f35d08" style="width: 100.0%; height: 100.0%;">Richterich Markt transactions = 132</div>`)[0];
+            popup_8714f81a9e02c4c36db32f6844b98f5b.setContent(html_e415ca4c6ce7cc0844d7626565f35d08);
+        
+
+        marker_46665f1d2a7bb4fca74724efb909877f.bindPopup(popup_8714f81a9e02c4c36db32f6844b98f5b)
+        ;
+
+        
+    
+    
+            var marker_67e486739986b18e95b9fac4d26ae130 = L.marker(
+                [50.773710055931, 6.0866523992668],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_ee95fcb846c2839ebdb5b3af9263dfc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_67e486739986b18e95b9fac4d26ae130.setIcon(icon_ee95fcb846c2839ebdb5b3af9263dfc3);
+        
+    
+        var popup_d1438ddf820b6e4dcd92b1b3b0631fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e84dc4c374ef26f9c0a248ced2f1c19c = $(`<div id="html_e84dc4c374ef26f9c0a248ced2f1c19c" style="width: 100.0%; height: 100.0%;">Sparkasse - Elisenbrunnen transactions = 134</div>`)[0];
+            popup_d1438ddf820b6e4dcd92b1b3b0631fa0.setContent(html_e84dc4c374ef26f9c0a248ced2f1c19c);
+        
+
+        marker_67e486739986b18e95b9fac4d26ae130.bindPopup(popup_d1438ddf820b6e4dcd92b1b3b0631fa0)
+        ;
+
+        
+    
+    
+            var marker_ea09d31f01ada6c049b05eac3a5d7253 = L.marker(
+                [50.770416, 6.11646],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_b6e99979acbdbcb77ec0ca0d68f7cae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_ea09d31f01ada6c049b05eac3a5d7253.setIcon(icon_b6e99979acbdbcb77ec0ca0d68f7cae5);
+        
+    
+        var popup_9a181f61f93c2c965e3c0a8e47c38e4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0d09e7174987c4cb8dcff74e5233ee7 = $(`<div id="html_d0d09e7174987c4cb8dcff74e5233ee7" style="width: 100.0%; height: 100.0%;">Bahnhof Rothe Erde transactions = 138</div>`)[0];
+            popup_9a181f61f93c2c965e3c0a8e47c38e4f.setContent(html_d0d09e7174987c4cb8dcff74e5233ee7);
+        
+
+        marker_ea09d31f01ada6c049b05eac3a5d7253.bindPopup(popup_9a181f61f93c2c965e3c0a8e47c38e4f)
+        ;
+
+        
+    
+    
+            var marker_8cca964e1c5b41d4185bd724c2600275 = L.marker(
+                [50.778276567595, 6.0817946394359],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_f7e5cbf9a7b718abd4508cbf6a3682a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_8cca964e1c5b41d4185bd724c2600275.setIcon(icon_f7e5cbf9a7b718abd4508cbf6a3682a7);
+        
+    
+        var popup_e93002bf107d5cbade0816e10d5ba53a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3105f88fc0f8fdd0774b41f4e0640385 = $(`<div id="html_3105f88fc0f8fdd0774b41f4e0640385" style="width: 100.0%; height: 100.0%;">ISF RWTH transactions = 139</div>`)[0];
+            popup_e93002bf107d5cbade0816e10d5ba53a.setContent(html_3105f88fc0f8fdd0774b41f4e0640385);
+        
+
+        marker_8cca964e1c5b41d4185bd724c2600275.bindPopup(popup_e93002bf107d5cbade0816e10d5ba53a)
+        ;
+
+        
+    
+    
+            var marker_e5cbdbe6d303e05e7588348cd504e50b = L.marker(
+                [50.783774, 6.097936],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_0273c43284c10d0126de7be771cf5d7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_e5cbdbe6d303e05e7588348cd504e50b.setIcon(icon_0273c43284c10d0126de7be771cf5d7a);
+        
+    
+        var popup_86a39e213cabf3728508b152cad06906 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7961ec96cffb80b4e4811ffb8045889 = $(`<div id="html_e7961ec96cffb80b4e4811ffb8045889" style="width: 100.0%; height: 100.0%;">Carolus Thermen transactions = 140</div>`)[0];
+            popup_86a39e213cabf3728508b152cad06906.setContent(html_e7961ec96cffb80b4e4811ffb8045889);
+        
+
+        marker_e5cbdbe6d303e05e7588348cd504e50b.bindPopup(popup_86a39e213cabf3728508b152cad06906)
+        ;
+
+        
+    
+    
+            var marker_a3998612dedd31f47640fba9df6d82ad = L.marker(
+                [50.768505, 6.102252],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_15b77856eb7533d94181f7b76f75a6a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_a3998612dedd31f47640fba9df6d82ad.setIcon(icon_15b77856eb7533d94181f7b76f75a6a0);
+        
+    
+        var popup_f9413e9a3fdd158eafd8eb763cf140fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cf3dcfc89ddfde629751775b888bc8f = $(`<div id="html_8cf3dcfc89ddfde629751775b888bc8f" style="width: 100.0%; height: 100.0%;">Frankenberger Park transactions = 145</div>`)[0];
+            popup_f9413e9a3fdd158eafd8eb763cf140fc.setContent(html_8cf3dcfc89ddfde629751775b888bc8f);
+        
+
+        marker_a3998612dedd31f47640fba9df6d82ad.bindPopup(popup_f9413e9a3fdd158eafd8eb763cf140fc)
+        ;
+
+        
+    
+    
+            var marker_a34eb9bb41ec2b078dfa78dfdb907315 = L.marker(
+                [50.760322, 6.093821],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_b3ad7e26d88cd3d3619411083992b8b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_a34eb9bb41ec2b078dfa78dfdb907315.setIcon(icon_b3ad7e26d88cd3d3619411083992b8b8);
+        
+    
+        var popup_558ef4d1983e426071aa0a27a4d7f175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96c7232e07305b81b998894e0e5e841b = $(`<div id="html_96c7232e07305b81b998894e0e5e841b" style="width: 100.0%; height: 100.0%;">Ferberpark transactions = 147</div>`)[0];
+            popup_558ef4d1983e426071aa0a27a4d7f175.setContent(html_96c7232e07305b81b998894e0e5e841b);
+        
+
+        marker_a34eb9bb41ec2b078dfa78dfdb907315.bindPopup(popup_558ef4d1983e426071aa0a27a4d7f175)
+        ;
+
+        
+    
+    
+            var marker_f479cdab05493d3550690193e8add2df = L.marker(
+                [50.775936, 6.044426],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_f94ba35b11331c46ad5e812a81677063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f479cdab05493d3550690193e8add2df.setIcon(icon_f94ba35b11331c46ad5e812a81677063);
+        
+    
+        var popup_56be9c059f53543c9c6a346553f32ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26edf23961f76a3955c823851100d4d6 = $(`<div id="html_26edf23961f76a3955c823851100d4d6" style="width: 100.0%; height: 100.0%;">Uniklinik transactions = 158</div>`)[0];
+            popup_56be9c059f53543c9c6a346553f32ed3.setContent(html_26edf23961f76a3955c823851100d4d6);
+        
+
+        marker_f479cdab05493d3550690193e8add2df.bindPopup(popup_56be9c059f53543c9c6a346553f32ed3)
+        ;
+
+        
+    
+    
+            var marker_260788ce424fc9162ac44241b7e831ba = L.marker(
+                [50.7805, 6.06815],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_6db737677d033ba39f697f2c09543117 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_260788ce424fc9162ac44241b7e831ba.setIcon(icon_6db737677d033ba39f697f2c09543117);
+        
+    
+        var popup_a75dd7f63858e1d31a303b07eff7cd6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_419793fba390012bb191e4574d3a4b26 = $(`<div id="html_419793fba390012bb191e4574d3a4b26" style="width: 100.0%; height: 100.0%;">Westbahnhof transactions = 184</div>`)[0];
+            popup_a75dd7f63858e1d31a303b07eff7cd6c.setContent(html_419793fba390012bb191e4574d3a4b26);
+        
+
+        marker_260788ce424fc9162ac44241b7e831ba.bindPopup(popup_a75dd7f63858e1d31a303b07eff7cd6c)
+        ;
+
+        
+    
+    
+            var marker_48f5d5b0b74054f30ffd5f989e01c42f = L.marker(
+                [50.76807300326967, 6.090497374534607],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_412d8756a39cd9e3041692a6f38ef810 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_48f5d5b0b74054f30ffd5f989e01c42f.setIcon(icon_412d8756a39cd9e3041692a6f38ef810);
+        
+    
+        var popup_e5e39a3107bd8b44f9c266e6703a1991 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8a89e463d0b5ba384c365d6ce06bf50 = $(`<div id="html_f8a89e463d0b5ba384c365d6ce06bf50" style="width: 100.0%; height: 100.0%;">Hauptbahnhof (Axotec Test) transactions = 255</div>`)[0];
+            popup_e5e39a3107bd8b44f9c266e6703a1991.setContent(html_f8a89e463d0b5ba384c365d6ce06bf50);
+        
+
+        marker_48f5d5b0b74054f30ffd5f989e01c42f.bindPopup(popup_e5e39a3107bd8b44f9c266e6703a1991)
+        ;
+
+        
+    
+    
+            var marker_e824ef96a6897e43c9d0c165ac2e171d = L.marker(
+                [50.780953, 6.075574],
+                {}
+            ).addTo(map_66c17a61367c5fa24ae089e4cb714422);
+        
+    
+            var icon_6d13cda85b0515bec08a4288156ee33e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_e824ef96a6897e43c9d0c165ac2e171d.setIcon(icon_6d13cda85b0515bec08a4288156ee33e);
+        
+    
+        var popup_e9362811154ceb30d9800ceefbf75e7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89d374cf2797e34c43eefdfa59ae6703 = $(`<div id="html_89d374cf2797e34c43eefdfa59ae6703" style="width: 100.0%; height: 100.0%;">Sparkasse - Pontwall transactions = 273</div>`)[0];
+            popup_e9362811154ceb30d9800ceefbf75e7d.setContent(html_89d374cf2797e34c43eefdfa59ae6703);
+        
+
+        marker_e824ef96a6897e43c9d0c165ac2e171d.bindPopup(popup_e9362811154ceb30d9800ceefbf75e7d)
+        ;
+
+        
+    
+    
+    var color_map_2ce3c0bd1c279a4144c8a039e455aa60 = {};
+
+    
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.color = d3.scale.threshold()
+              .domain([0.0, 0.6012024048096193, 1.2024048096192386, 1.8036072144288577, 2.404809619238477, 3.006012024048096, 3.6072144288577155, 4.208416833667335, 4.809619238476954, 5.410821643286573, 6.012024048096192, 6.613226452905812, 7.214428857715431, 7.81563126252505, 8.41683366733467, 9.01803607214429, 9.619238476953909, 10.220440881763528, 10.821643286573146, 11.422845691382765, 12.024048096192384, 12.625250501002004, 13.226452905811623, 13.827655310621243, 14.428857715430862, 15.030060120240481, 15.6312625250501, 16.23246492985972, 16.83366733466934, 17.43486973947896, 18.03607214428858, 18.637274549098198, 19.238476953907817, 19.839679358717436, 20.440881763527056, 21.04208416833667, 21.64328657314629, 22.24448897795591, 22.84569138276553, 23.44689378757515, 24.04809619238477, 24.649298597194388, 25.250501002004007, 25.851703406813627, 26.452905811623246, 27.054108216432866, 27.655310621242485, 28.256513026052104, 28.857715430861724, 29.458917835671343, 30.060120240480963, 30.661322645290582, 31.2625250501002, 31.86372745490982, 32.46492985971944, 33.06613226452906, 33.66733466933868, 34.2685370741483, 34.86973947895792, 35.47094188376754, 36.07214428857716, 36.673346693386776, 37.274549098196395, 37.875751503006015, 38.476953907815634, 39.078156312625254, 39.67935871743487, 40.28056112224449, 40.88176352705411, 41.482965931863724, 42.08416833667334, 42.68537074148296, 43.28657314629258, 43.8877755511022, 44.48897795591182, 45.09018036072144, 45.69138276553106, 46.29258517034068, 46.8937875751503, 47.49498997995992, 48.09619238476954, 48.69739478957916, 49.298597194388776, 49.899799599198396, 50.501002004008015, 51.102204408817634, 51.703406813627254, 52.30460921843687, 52.90581162324649, 53.50701402805611, 54.10821643286573, 54.70941883767535, 55.31062124248497, 55.91182364729459, 56.51302605210421, 57.11422845691383, 57.71543086172345, 58.31663326653307, 58.91783567134269, 59.519038076152306, 60.120240480961925, 60.721442885771545, 61.322645290581164, 61.92384769539078, 62.5250501002004, 63.12625250501002, 63.72745490981964, 64.32865731462925, 64.92985971943888, 65.53106212424849, 66.13226452905812, 66.73346693386773, 67.33466933867736, 67.93587174348697, 68.5370741482966, 69.13827655310621, 69.73947895791584, 70.34068136272545, 70.94188376753507, 71.54308617234469, 72.14428857715431, 72.74549098196393, 73.34669338677355, 73.94789579158316, 74.54909819639279, 75.1503006012024, 75.75150300601203, 76.35270541082164, 76.95390781563127, 77.55511022044088, 78.15631262525051, 78.75751503006012, 79.35871743486975, 79.95991983967936, 80.56112224448898, 81.1623246492986, 81.76352705410822, 82.36472945891784, 82.96593186372745, 83.56713426853707, 84.16833667334669, 84.76953907815631, 85.37074148296593, 85.97194388777555, 86.57314629258516, 87.17434869739479, 87.7755511022044, 88.37675350701403, 88.97795591182364, 89.57915831663327, 90.18036072144288, 90.78156312625251, 91.38276553106212, 91.98396793587175, 92.58517034068136, 93.18637274549098, 93.7875751503006, 94.38877755511022, 94.98997995991984, 95.59118236472946, 96.19238476953907, 96.7935871743487, 97.39478957915831, 97.99599198396794, 98.59719438877755, 99.19839679358718, 99.79959919839679, 100.40080160320642, 101.00200400801603, 101.60320641282566, 102.20440881763527, 102.8056112224449, 103.40681362725451, 104.00801603206413, 104.60921843687375, 105.21042084168337, 105.81162324649299, 106.41282565130261, 107.01402805611222, 107.61523046092185, 108.21643286573146, 108.81763527054109, 109.4188376753507, 110.02004008016031, 110.62124248496994, 111.22244488977955, 111.82364729458918, 112.42484969939879, 113.02605210420842, 113.62725450901803, 114.22845691382766, 114.82965931863727, 115.4308617234469, 116.03206412825651, 116.63326653306613, 117.23446893787575, 117.83567134268537, 118.43687374749499, 119.03807615230461, 119.63927855711422, 120.24048096192385, 120.84168336673346, 121.44288577154309, 122.0440881763527, 122.64529058116233, 123.24649298597194, 123.84769539078157, 124.44889779559118, 125.0501002004008, 125.65130260521042, 126.25250501002004, 126.85370741482966, 127.45490981963928, 128.0561122244489, 128.6573146292585, 129.25851703406815, 129.85971943887776, 130.46092184368737, 131.06212424849699, 131.66332665330663, 132.26452905811624, 132.86573146292585, 133.46693386773546, 134.0681362725451, 134.66933867735472, 135.27054108216433, 135.87174348697394, 136.47294589178355, 137.0741482965932, 137.6753507014028, 138.27655310621242, 138.87775551102203, 139.47895791583167, 140.08016032064128, 140.6813627254509, 141.2825651302605, 141.88376753507015, 142.48496993987976, 143.08617234468937, 143.68737474949899, 144.28857715430863, 144.88977955911824, 145.49098196392785, 146.09218436873746, 146.6933867735471, 147.29458917835672, 147.89579158316633, 148.49699398797594, 149.09819639278558, 149.6993987975952, 150.3006012024048, 150.90180360721442, 151.50300601202406, 152.10420841683367, 152.70541082164328, 153.3066132264529, 153.90781563126254, 154.50901803607215, 155.11022044088176, 155.71142284569137, 156.31262525050101, 156.91382765531063, 157.51503006012024, 158.11623246492985, 158.7174348697395, 159.3186372745491, 159.91983967935872, 160.52104208416833, 161.12224448897797, 161.72344689378758, 162.3246492985972, 162.9258517034068, 163.52705410821645, 164.12825651302606, 164.72945891783567, 165.33066132264528, 165.9318637274549, 166.53306613226454, 167.13426853707415, 167.73547094188376, 168.33667334669337, 168.93787575150301, 169.53907815631263, 170.14028056112224, 170.74148296593185, 171.3426853707415, 171.9438877755511, 172.54509018036072, 173.14629258517033, 173.74749498997997, 174.34869739478958, 174.9498997995992, 175.5511022044088, 176.15230460921845, 176.75350701402806, 177.35470941883767, 177.95591182364728, 178.55711422845692, 179.15831663326654, 179.75951903807615, 180.36072144288576, 180.9619238476954, 181.56312625250501, 182.16432865731463, 182.76553106212424, 183.36673346693388, 183.9679358717435, 184.5691382765531, 185.17034068136272, 185.77154308617236, 186.37274549098197, 186.97394789579158, 187.5751503006012, 188.17635270541084, 188.77755511022045, 189.37875751503006, 189.97995991983967, 190.5811623246493, 191.18236472945893, 191.78356713426854, 192.38476953907815, 192.98597194388776, 193.5871743486974, 194.18837675350701, 194.78957915831663, 195.39078156312624, 195.99198396793588, 196.5931863727455, 197.1943887775551, 197.79559118236472, 198.39679358717436, 198.99799599198397, 199.59919839679358, 200.2004008016032, 200.80160320641284, 201.40280561122245, 202.00400801603206, 202.60521042084167, 203.2064128256513, 203.80761523046093, 204.40881763527054, 205.01002004008015, 205.6112224448898, 206.2124248496994, 206.81362725450902, 207.41482965931863, 208.01603206412827, 208.61723446893788, 209.2184368737475, 209.8196392785571, 210.42084168336675, 211.02204408817636, 211.62324649298597, 212.22444889779558, 212.82565130260522, 213.42685370741484, 214.02805611222445, 214.62925851703406, 215.2304609218437, 215.8316633266533, 216.43286573146293, 217.03406813627254, 217.63527054108218, 218.2364729458918, 218.8376753507014, 219.43887775551102, 220.04008016032063, 220.64128256513027, 221.24248496993988, 221.8436873747495, 222.4448897795591, 223.04609218436875, 223.64729458917836, 224.24849699398797, 224.84969939879758, 225.45090180360722, 226.05210420841684, 226.65330661322645, 227.25450901803606, 227.8557114228457, 228.4569138276553, 229.05811623246493, 229.65931863727454, 230.26052104208418, 230.8617234468938, 231.4629258517034, 232.06412825651302, 232.66533066132266, 233.26653306613227, 233.86773547094188, 234.4689378757515, 235.07014028056113, 235.67134268537075, 236.27254509018036, 236.87374749498997, 237.4749498997996, 238.07615230460922, 238.67735470941884, 239.27855711422845, 239.8797595190381, 240.4809619238477, 241.0821643286573, 241.68336673346693, 242.28456913827657, 242.88577154308618, 243.4869739478958, 244.0881763527054, 244.68937875751504, 245.29058116232466, 245.89178356713427, 246.49298597194388, 247.0941883767535, 247.69539078156313, 248.29659318637275, 248.89779559118236, 249.49899799599197, 250.1002004008016, 250.70140280561122, 251.30260521042084, 251.90380761523045, 252.5050100200401, 253.1062124248497, 253.7074148296593, 254.30861723446893, 254.90981963927857, 255.51102204408818, 256.1122244488978, 256.7134268537074, 257.314629258517, 257.9158316633266, 258.5170340681363, 259.1182364729459, 259.7194388777555, 260.32064128256513, 260.92184368737475, 261.52304609218436, 262.12424849699397, 262.7254509018036, 263.32665330661325, 263.92785571142286, 264.5290581162325, 265.1302605210421, 265.7314629258517, 266.3326653306613, 266.9338677354709, 267.53507014028054, 268.1362725450902, 268.7374749498998, 269.33867735470943, 269.93987975951904, 270.54108216432866, 271.14228456913827, 271.7434869739479, 272.3446893787575, 272.9458917835671, 273.5470941883768, 274.1482965931864, 274.749498997996, 275.3507014028056, 275.9519038076152, 276.55310621242484, 277.15430861723445, 277.75551102204406, 278.35671342685373, 278.95791583166334, 279.55911823647295, 280.16032064128257, 280.7615230460922, 281.3627254509018, 281.9639278557114, 282.565130260521, 283.1663326653307, 283.7675350701403, 284.3687374749499, 284.9699398797595, 285.57114228456913, 286.17234468937875, 286.77354709418836, 287.37474949899797, 287.97595190380764, 288.57715430861725, 289.17835671342687, 289.7795591182365, 290.3807615230461, 290.9819639278557, 291.5831663326653, 292.1843687374749, 292.7855711422846, 293.3867735470942, 293.9879759519038, 294.58917835671343, 295.19038076152304, 295.79158316633266, 296.39278557114227, 296.9939879759519, 297.59519038076155, 298.19639278557116, 298.7975951903808, 299.3987975951904, 300.0])
+              .range(['#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#edf8fbff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#bdd4e7ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#99a8d0ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#8a76b7ff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff', '#810f7cff']);
+    
+
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.x = d3.scale.linear()
+              .domain([0.0, 300.0])
+              .range([0, 400]);
+
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.legend = L.control({position: 'topright'});
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.legend.addTo(map_66c17a61367c5fa24ae089e4cb714422);
+
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.xAxis = d3.svg.axis()
+        .scale(color_map_2ce3c0bd1c279a4144c8a039e455aa60.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([0, 50, 100, 150, 200, 300]);
+
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.g = color_map_2ce3c0bd1c279a4144c8a039e455aa60.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.g.selectAll("rect")
+        .data(color_map_2ce3c0bd1c279a4144c8a039e455aa60.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_2ce3c0bd1c279a4144c8a039e455aa60.x(color_map_2ce3c0bd1c279a4144c8a039e455aa60.color.domain()[i - 1]) : color_map_2ce3c0bd1c279a4144c8a039e455aa60.x.range()[0],
+            x1: i < color_map_2ce3c0bd1c279a4144c8a039e455aa60.color.domain().length ? color_map_2ce3c0bd1c279a4144c8a039e455aa60.x(color_map_2ce3c0bd1c279a4144c8a039e455aa60.color.domain()[i]) : color_map_2ce3c0bd1c279a4144c8a039e455aa60.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 10)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_2ce3c0bd1c279a4144c8a039e455aa60.g.call(color_map_2ce3c0bd1c279a4144c8a039e455aa60.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text('NUMBER OF TRANSACTIONS from 27-03-23 to 13-03-23');
+</script>
